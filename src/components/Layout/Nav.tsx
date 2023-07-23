@@ -1,15 +1,15 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 
 const Nav = () => {
   return (
     <nav className="sticky top-0 z-10 p-1 md:p-4">
       <div
-        className={`navbar bg-primary w-full rounded-md border-2 border-transparent transition-all duration-300`}
+        className={`navbar w-full rounded-md border-2 border-transparent bg-primary transition-all duration-300`}
       >
         <div className="navbar-start">
           <div className="dropdown rounded-md">
-            <label tabIndex={0} className="btn btn-ghost btn-circle">
+            <label tabIndex={0} className="btn btn-circle btn-ghost">
               <svg
                 width="24px"
                 height="24px"
@@ -30,11 +30,11 @@ const Nav = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content bg-base-100 left-[-8px] mt-6 w-52 gap-1 rounded-md p-2 shadow"
+              className="menu-compact menu dropdown-content left-[-8px] mt-6 w-52 gap-1 rounded-md bg-base-100 p-2 shadow"
             >
               {false && (
                 <>
-                  <li className="bg-primary-focus text-primary-content rounded-md">
+                  <li className="rounded-md bg-primary-focus text-primary-content">
                     <Link href="/admin">Admin</Link>
                   </li>
                   <div className="divider mb-[3px] mt-[3px]"></div>
@@ -46,7 +46,7 @@ const Nav = () => {
               <li>
                 <Link href="/">Portfolio</Link>
               </li>
-              <li className="bg-primary-focus text-primary-content rounded-md">
+              <li className="rounded-md bg-primary-focus text-primary-content">
                 Use logged in stuff here
               </li>
             </ul>
@@ -55,13 +55,13 @@ const Nav = () => {
         <div className="navbar-center">
           <Link
             href="/"
-            className={`btn btn-ghost text-primary-content hidden items-center justify-center text-xl normal-case md:flex`}
+            className={`btn btn-ghost hidden items-center justify-center text-xl normal-case text-primary-content md:flex`}
           >
             Mindful Body Massage
           </Link>
           <Link
             href="/"
-            className={`btn btn-ghost text-primary-content flex items-center justify-center text-xl normal-case md:hidden`}
+            className={`btn btn-ghost flex items-center justify-center text-xl normal-case text-primary-content md:hidden`}
           >
             {/* <Image
               className="w-12"
@@ -73,12 +73,12 @@ const Nav = () => {
         </div>
         <div className="navbar-end gap-5">
           <div
-            className="tooltip tooltip-bottom tooltip-secondary"
+            className="tooltip tooltip-secondary tooltip-bottom"
             data-tip={`Make an appointment`}
           >
             <Link
               href="/new"
-              className="btn btn-ghost btn-circle bg-secondary hover:bg-secondary"
+              className="btn btn-circle btn-ghost bg-secondary hover:bg-secondary"
             >
               <div className="indicator">
                 <svg
@@ -103,10 +103,10 @@ const Nav = () => {
           </div>
           {false && (
             <div
-              className="tooltip tooltip-bottom tooltip-secondary"
+              className="tooltip tooltip-secondary tooltip-bottom"
               data-tip={""}
             >
-              <button className="btn btn-ghost btn-circle bg-secondary hover:bg-secondary">
+              <button className="btn btn-circle btn-ghost bg-secondary hover:bg-secondary">
                 <div className="indicator">
                   <svg
                     width="24px"
