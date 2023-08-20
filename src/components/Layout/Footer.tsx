@@ -5,24 +5,10 @@ const Footer = () => {
     <footer className="body-font bg-neutral text-neutral-content">
       <div className="container mx-auto flex flex-col items-center px-5 py-8 sm:flex-row">
         <a className="title-font flex items-center justify-center font-medium text-accent md:justify-start">
-          {/* <Image
-            src="/android-chrome-512x512.png"
-            alt="mindful body massage logo"
-            className="w-10"
-          /> */}
-          LOGO GOES HERE
-          <span className="ml-3 text-xl">Mindful Body Massage</span>
+          <span className="ml-3 text-xl">The Mindful Body Massage</span>
         </a>
         <p className="mt-4 text-sm text-neutral-content sm:ml-4 sm:mt-0 sm:border-l-2 sm:border-neutral-focus sm:py-2 sm:pl-4">
-          © 2022 Mindful Body Massage — Lotus logo by Travis Avery from{" "}
-          <a
-            href="https://thenounproject.com/browse/icons/term/lotus/"
-            target="_blank"
-            title="Lotus Icons"
-            className="ml-1 text-primary"
-          >
-            Noun Project
-          </a>
+          © 2023 Mindful Body Massage
         </p>
         <span className="mt-4 inline-flex justify-center sm:ml-auto sm:mt-0 sm:justify-start">
           <a className="text-neutral-content">
@@ -61,23 +47,6 @@ const Footer = () => {
             >
               <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
               <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-            </svg>
-          </a>
-          <a className="ml-3 text-neutral-content">
-            <svg
-              fill="currentColor"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="0"
-              className="h-5 w-5"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke="none"
-                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
-              ></path>
-              <circle cx="4" cy="4" r="2" stroke="none"></circle>
             </svg>
           </a>
         </span>

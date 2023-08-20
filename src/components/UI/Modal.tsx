@@ -47,6 +47,12 @@ function ModalButton({ children }: { children: ReactNode }) {
 
 Modal.Button = ModalButton;
 
+function ModalClose({ children }: { children: ReactNode }) {
+  return <Dialog.Close asChild>{children}</Dialog.Close>;
+}
+
+Modal.Close = ModalClose;
+
 const DropdownMenuContext = createContext({ closeMenu: () => console.log("") });
 
 function ModalChildren({

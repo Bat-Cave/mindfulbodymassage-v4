@@ -6,7 +6,7 @@ const Layout: React.FC<PropsWithChildren> = ({ children }) => {
   return (
     <>
       <Nav />
-      <div className="animate-fade-in p-b-8 min-h-[calc(100vh-84px)] scroll-smooth md:min-h-[calc(100vh-204px)]">
+      <div className="animate-fade-in p-b-8 relative min-h-screen w-full scroll-smooth">
         {children}
       </div>
       <Footer />

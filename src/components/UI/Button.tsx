@@ -1,111 +1,81 @@
-import {
-  forwardRef,
-  type AnchorHTMLAttributes,
-  type ButtonHTMLAttributes,
-  type ForwardedRef,
-} from "react";
+import React, { forwardRef, type ForwardedRef } from "react";
+import { FocusRing } from "@react-aria/focus";
+import type { ButtonProps } from "./ButtonConstants";
 import { cva } from "class-variance-authority";
 import { twMerge } from "tailwind-merge";
 
-export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: "solid" | "outline" | "text";
-  color?: "blue" | "slate" | "white";
-  className?: string;
-}
-
-interface AnchorProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
-  variant?: "solid" | "outline" | "text";
-  color?: "blue" | "slate" | "white";
-  className?: string;
-  href: string;
-}
-
-type FinalProps = ButtonProps | AnchorProps;
-
-export const buttonVariants = cva("a", {
-  variants: {
-    variant: {
-      solid:
-        "group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 transition-colors",
-      outline:
-        "group inline-flex ring-1 items-center justify-center rounded-full py-2 px-4 text-sm focus:outline-none transition-colors",
-      text: "bg-transparent text-primary hover:text-primary-shade focus-visible:outline-primary active:text-blue-100 focus-visible:outline-primary focus-visible:outline-offset-1 active:outline-primary-shade transition-colors",
+const buttonVariants = cva(
+  "flex select-none items-center justify-center rounded-full font-sans transition duration-200 focus:outline-none",
+  {
+    variants: {
+      variant: {
+        solid:
+          "shadow text-white border px-2 hover:border-primary-content hover:bg-primary-content disabled:bg-slate-500 disabled:border-slate-500 bg-primary border-primary active:border-primary-content active:bg-primary-content",
+        outlined:
+          "shadow bg-white border-2 px-2 border-primary text-primary hover:text-primary disabled:text-slate-500 disabled:border-slate-500 active:text-primary",
+        text: "text-primary rounded-none border-0 h-auto w-auto hover:text-primary disabled:text-slate-500",
+      },
+      size: {
+        large: "h-12 w-full max-w-[300px]",
+        small: "h-8 w-auto max-w-none",
+        full: "h-12 w-full",
+      },
     },
-    color: {
-      slate: "",
-      white: "",
-      blue: "",
-    },
-  },
-  compoundVariants: [
-    {
+    defaultVariants: {
       variant: "solid",
-      color: "slate",
-      className:
-        "bg-dark-gray text-white hover:bg-gray hover:text-white active:bg-slate-800 active:text-slate-300 focus-visible:outline-slate-800",
+      size: "large",
     },
-    {
-      variant: "solid",
-      color: "blue",
-      className:
-        "bg-primary text-white hover:text-slate-100 hover:bg-primary-shade active:bg-blue-800 active:text-blue-100 focus-visible:outline-primary active:outline-primary-shade",
-    },
-    {
-      variant: "solid",
-      color: "white",
-      className:
-        "bg-white text-slate-900 hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white",
-    },
-    {
-      variant: "outline",
-      color: "slate",
-      className:
-        "ring-slate-200 text-slate-700 hover:text-slate-900 hover:ring-slate-300 active:bg-slate-100 active:text-slate-600 focus-visible:outline-blue-600 focus-visible:ring-slate-300",
-    },
-    {
-      variant: "outline",
-      color: "white",
-      className:
-        "ring-slate-700 text-white hover:ring-slate-500 active:ring-slate-700 active:text-slate-400 focus-visible:outline-white",
-    },
-    {
-      variant: "text",
-      color: "slate",
-      className:
-        "bg-transparent text-primary hover:text-primary-shade focus-visible:outline-primary active:text-blue-100 focus-visible:outline-primary focus-visible:outline-offset-1 active:outline-primary-shade",
-    },
-  ],
-  defaultVariants: { variant: "solid", color: "slate" },
-});
+    compoundVariants: [
+      {
+        variant: "text",
+        className: "h-auto w-auto max-w-none",
+      },
+    ],
+  }
+);
 
-const Button: React.FC<FinalProps> = forwardRef(
-  ({ variant = "solid", color = "slate", className, ...props }, ref) => {
-    const finalClassName = twMerge(
-      buttonVariants({ variant, color }),
-      className
-    );
-
-    if ("href" in props) {
-      return (
-        // eslint-disable-next-line jsx-a11y/anchor-has-content
-        <a
-          ref={ref as ForwardedRef<HTMLAnchorElement>}
-          className={finalClassName}
-          {...props}
-        />
-      );
-    }
-
+const Button: React.FC<ButtonProps> = forwardRef(
+  (
+    {
+      isLoading = false,
+      disabled = false,
+      variant = "solid",
+      size = "large",
+      className,
+      children,
+      onClick,
+      ...props
+    },
+    ref: ForwardedRef<HTMLButtonElement>
+  ) => {
     return (
-      <button
-        ref={ref as ForwardedRef<HTMLButtonElement>}
-        className={finalClassName}
-        {...props}
-      />
+      <FocusRing
+        focusRingClass={twMerge(
+          `active:ring-primary-content ring-primary`,
+          `hover:ring-primary-content ring-1 ring-offset-2 ring-offset-white`
+        )}
+      >
+        <button
+          ref={ref}
+          className={twMerge(buttonVariants({ variant, size }), className)}
+          style={{
+            WebkitTapHighlightColor: "transparent",
+          }}
+          onClick={(e) => {
+            if (isLoading) return;
+            onClick?.(e);
+          }}
+          {...props}
+          disabled={disabled || isLoading}
+        >
+          {isLoading ? <>Loading...</> : children}
+        </button>
+      </FocusRing>
     );
   }
 );
 
-export default Button;
-
 Button.displayName = "Button";
+
+export default Button;
+export { buttonVariants };

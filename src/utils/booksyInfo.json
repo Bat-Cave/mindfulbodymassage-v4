@@ -1,0 +1,865 @@
+{
+    "business": {
+        "id": 1042065,
+        "name": "The Mindful Body Massage",
+        "slug": "the-mindful-body-massage",
+        "subdomain": "themindfulbodymassage",
+        "description": null,
+        "business_categories": [
+            {
+                "name": "Massage",
+                "plural_name": "Massages",
+                "id": 4,
+                "slug": "massage",
+                "female_weight": 50,
+                "internal_name": "Massage"
+            }
+        ],
+        "primary_category": 4,
+        "regions": [
+            {
+                "full_name": "USA",
+                "latitude": 39.828127,
+                "name": "USA",
+                "id": 7,
+                "type": "country",
+                "slug": "usa",
+                "longitude": -98.579404
+            },
+            {
+                "full_name": "Utah",
+                "latitude": 39.499826,
+                "name": "Utah",
+                "id": 10044,
+                "type": "state",
+                "slug": "utah",
+                "longitude": -111.549162110555
+            },
+            {
+                "full_name": "Utah County, UT",
+                "latitude": 40.1771415,
+                "name": "Utah County",
+                "id": 12830,
+                "type": "county",
+                "slug": "utah-county",
+                "longitude": -111.691033368039
+            },
+            {
+                "full_name": "Pleasant Grove, UT",
+                "latitude": 40.3790835,
+                "name": "Pleasant Grove",
+                "id": 37870,
+                "type": "city",
+                "slug": "pleasant-grove",
+                "longitude": -111.742898183003
+            },
+            {
+                "full_name": "84062",
+                "latitude": 40.4419625,
+                "name": "84062",
+                "id": 73245,
+                "type": "zip",
+                "slug": "84062",
+                "longitude": -111.667589370638
+            }
+        ],
+        "thumbnail_photo": null,
+        "photo": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/10c0a3a4f826401f8ab3496c14bd4d-the-mindful-body-massage-biz-photo-64bd45527b2e48f6abc6625b506437-booksy.jpeg",
+        "location": {
+            "coordinate": {
+                "latitude": 40.36254476403089,
+                "longitude": -111.74889936730521
+            },
+            "address": "519 W State St., Pleasant Grove, 84062",
+            "city": "Pleasant Grove"
+        },
+        "reviews_rank": null,
+        "reviews_count": null,
+        "reviews_stars": 0,
+        "reviews": [],
+        "pricing_level": null,
+        "promoted": false,
+        "noindex": false,
+        "images": {
+            "cover": [
+                {
+                    "image_id": 25596942,
+                    "business_id": 1042065,
+                    "tags": [],
+                    "staffers": [],
+                    "description": null,
+                    "image": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/10c0a3a4f826401f8ab3496c14bd4d-the-mindful-body-massage-biz-photo-64bd45527b2e48f6abc6625b506437-booksy.jpeg",
+                    "height": 776,
+                    "width": 1165,
+                    "category": "biz_photo",
+                    "is_cover_photo": true,
+                    "inspiration_categories": [],
+                    "order": 0,
+                    "visible": true,
+                    "active": true,
+                    "created": "2023-08-17T18:13:38",
+                    "thumbnails": {
+                        "1170,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/10c0a3a4f826401f8ab3496c14bd4d-the-mindful-body-massage-biz-photo-64bd45527b2e48f6abc6625b506437-booksy.jpeg?size=1170x0"
+                        },
+                        "1170,1170": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/10c0a3a4f826401f8ab3496c14bd4d-the-mindful-body-massage-biz-photo-64bd45527b2e48f6abc6625b506437-booksy.jpeg?size=1170x1170"
+                        },
+                        "750,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/10c0a3a4f826401f8ab3496c14bd4d-the-mindful-body-massage-biz-photo-64bd45527b2e48f6abc6625b506437-booksy.jpeg?size=750x0"
+                        },
+                        "750,750": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/10c0a3a4f826401f8ab3496c14bd4d-the-mindful-body-massage-biz-photo-64bd45527b2e48f6abc6625b506437-booksy.jpeg?size=750x750"
+                        },
+                        "360,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/10c0a3a4f826401f8ab3496c14bd4d-the-mindful-body-massage-biz-photo-64bd45527b2e48f6abc6625b506437-booksy.jpeg?size=360x0"
+                        },
+                        "360,360": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/10c0a3a4f826401f8ab3496c14bd4d-the-mindful-body-massage-biz-photo-64bd45527b2e48f6abc6625b506437-booksy.jpeg?size=360x360"
+                        },
+                        "150,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/10c0a3a4f826401f8ab3496c14bd4d-the-mindful-body-massage-biz-photo-64bd45527b2e48f6abc6625b506437-booksy.jpeg?size=150x0"
+                        },
+                        "150,150": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/10c0a3a4f826401f8ab3496c14bd4d-the-mindful-body-massage-biz-photo-64bd45527b2e48f6abc6625b506437-booksy.jpeg?size=150x150"
+                        },
+                        "750,500": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/10c0a3a4f826401f8ab3496c14bd4d-the-mindful-body-massage-biz-photo-64bd45527b2e48f6abc6625b506437-booksy.jpeg?size=750x500"
+                        },
+                        "640,0-hr": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/10c0a3a4f826401f8ab3496c14bd4d-the-mindful-body-massage-biz-photo-64bd45527b2e48f6abc6625b506437-booksy.jpeg?size=640x0-hr"
+                        },
+                        "640,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/10c0a3a4f826401f8ab3496c14bd4d-the-mindful-body-massage-biz-photo-64bd45527b2e48f6abc6625b506437-booksy.jpeg?size=640x0"
+                        },
+                        "240,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/10c0a3a4f826401f8ab3496c14bd4d-the-mindful-body-massage-biz-photo-64bd45527b2e48f6abc6625b506437-booksy.jpeg?size=240x0"
+                        },
+                        "640,427": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/10c0a3a4f826401f8ab3496c14bd4d-the-mindful-body-massage-biz-photo-64bd45527b2e48f6abc6625b506437-booksy.jpeg?size=640x427"
+                        },
+                        "640,427-hr": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/10c0a3a4f826401f8ab3496c14bd4d-the-mindful-body-massage-biz-photo-64bd45527b2e48f6abc6625b506437-booksy.jpeg?size=640x427-hr"
+                        }
+                    }
+                }
+            ],
+            "cover_orig": [],
+            "logo": [],
+            "biz_photo": [],
+            "inspiration": [],
+            "biz_photo_count": 0,
+            "biz_photo_per_page": 20
+        },
+        "staff": [
+            {
+                "id": 992873,
+                "name": "Nicole Cutchins",
+                "type": "S",
+                "visible": true,
+                "active": true,
+                "description": null,
+                "staff_user_exists": true,
+                "photo": null,
+                "photo_url": null,
+                "order": 0,
+                "popularity": 0,
+                "reviews_rank_score": 0.0,
+                "business": {
+                    "name": "The Mindful Body Massage",
+                    "id": 1042065
+                },
+                "position": "",
+                "bookmarked": false
+            },
+            {
+                "id": 992881,
+                "name": "Rico Hancock",
+                "type": "S",
+                "visible": true,
+                "active": true,
+                "description": "",
+                "staff_user_exists": true,
+                "photo": null,
+                "photo_url": null,
+                "order": 0,
+                "popularity": 0,
+                "reviews_rank_score": 0.0,
+                "business": {
+                    "name": "The Mindful Body Massage",
+                    "id": 1042065
+                },
+                "position": "",
+                "bookmarked": false
+            }
+        ],
+        "hidden_on_web": false,
+        "is_renting_venue": false,
+        "umbrella_venue_name": null,
+        "contractor_description": null,
+        "is_b_listing": false,
+        "service_categories": [
+            {
+                "show_first": -1,
+                "name": "",
+                "id": null,
+                "services": [
+                    {
+                        "padding_type": "",
+                        "note": "",
+                        "treatment": {
+                            "name": "Swedish massage",
+                            "id": 460
+                        },
+                        "description_type": "M",
+                        "active": true,
+                        "description": "Swedish massage targets the more superficial layers of muscle and consists of light to firm pressure, longer strokes, and smooth gliding movement over the body. Ideal for relaxation and reduction of mild muscle tension from everyday activities.",
+                        "treatment_id": 460,
+                        "is_online_service": false,
+                        "variants": [
+                            {
+                                "duration": 60,
+                                "deposit_tax": 0.0,
+                                "prepayment_tax": 0.0,
+                                "price": 75.0,
+                                "deposit": 0.0,
+                                "id": 15390698,
+                                "label": "60 min Swedish Massage",
+                                "type": "X",
+                                "combo_children": [],
+                                "staffer_id": [
+                                    992873,
+                                    992881
+                                ],
+                                "prepayment": 0.0,
+                                "promotion": null,
+                                "service_price": "$75.00"
+                            },
+                            {
+                                "duration": 90,
+                                "deposit_tax": 0.0,
+                                "prepayment_tax": 0.0,
+                                "price": 115.0,
+                                "deposit": 0.0,
+                                "id": 15390523,
+                                "label": "90 min Swedish Massage",
+                                "type": "X",
+                                "combo_children": [],
+                                "staffer_id": [
+                                    992873,
+                                    992881
+                                ],
+                                "prepayment": 0.0,
+                                "promotion": null,
+                                "service_price": "$115.00"
+                            },
+                            {
+                                "duration": 120,
+                                "deposit_tax": 0.0,
+                                "prepayment_tax": 0.0,
+                                "price": 150.0,
+                                "deposit": 0.0,
+                                "id": 15390641,
+                                "label": "120 min Swedish Massage",
+                                "type": "X",
+                                "combo_children": [],
+                                "staffer_id": [
+                                    992873,
+                                    992881
+                                ],
+                                "prepayment": 0.0,
+                                "promotion": null,
+                                "service_price": "$150.00"
+                            }
+                        ],
+                        "partner_app_data": {},
+                        "type": "S",
+                        "staffer_id": [
+                            992873,
+                            992881
+                        ],
+                        "photos": [],
+                        "is_available_for_customer_booking": true,
+                        "suggest_services": {
+                            "input": [
+                                "Swedish Massage",
+                                "Swedish",
+                                "Massage"
+                            ],
+                            "contexts": {
+                                "business_categories": [
+                                    "4",
+                                    "*"
+                                ],
+                                "is_b_listing": false,
+                                "location": "40.36254476403089,-111.74889936730521"
+                            }
+                        },
+                        "price": 75.0,
+                        "treatment_parent_id": 4,
+                        "name": "Swedish Massage",
+                        "id": 6758613,
+                        "combo_type": null,
+                        "addons_available": false,
+                        "is_traveling_service": false,
+                        "order": 3,
+                        "service_price": "$75.00+"
+                    },
+                    {
+                        "padding_type": "",
+                        "note": "",
+                        "treatment": {
+                            "name": "Deep tissue massage",
+                            "id": 454
+                        },
+                        "description_type": "M",
+                        "active": true,
+                        "description": "A massage that is ideal for more chronic pain and past muscle related injury. Deep tissue massage is used to target deeper into the muscle layers, reduce tendon tightness, and work out pain and stiffness in major muscle groups and around the joints. You can expect prolonged, deep pressure on muscle adhesion and knots and pain that \"Hurts so good!\"",
+                        "treatment_id": 454,
+                        "is_online_service": false,
+                        "variants": [
+                            {
+                                "duration": 60,
+                                "deposit_tax": 0.0,
+                                "prepayment_tax": 0.0,
+                                "price": 75.0,
+                                "deposit": 0.0,
+                                "id": 15390624,
+                                "label": "60 min Deep Tissue Massage",
+                                "type": "X",
+                                "combo_children": [],
+                                "staffer_id": [
+                                    992873,
+                                    992881
+                                ],
+                                "prepayment": 0.0,
+                                "promotion": null,
+                                "service_price": "$75.00"
+                            },
+                            {
+                                "duration": 90,
+                                "deposit_tax": 0.0,
+                                "prepayment_tax": 0.0,
+                                "price": 115.0,
+                                "deposit": 0.0,
+                                "id": 15390707,
+                                "label": "90 min Deep Tissue Massage",
+                                "type": "X",
+                                "combo_children": [],
+                                "staffer_id": [
+                                    992873,
+                                    992881
+                                ],
+                                "prepayment": 0.0,
+                                "promotion": null,
+                                "service_price": "$115.00"
+                            },
+                            {
+                                "duration": 120,
+                                "deposit_tax": 0.0,
+                                "prepayment_tax": 0.0,
+                                "price": 150.0,
+                                "deposit": 0.0,
+                                "id": 15390708,
+                                "label": "120 min Deep Tissue Massage",
+                                "type": "X",
+                                "combo_children": [],
+                                "staffer_id": [
+                                    992873,
+                                    992881
+                                ],
+                                "prepayment": 0.0,
+                                "promotion": null,
+                                "service_price": "$150.00"
+                            }
+                        ],
+                        "partner_app_data": {},
+                        "type": "S",
+                        "staffer_id": [
+                            992873,
+                            992881
+                        ],
+                        "photos": [],
+                        "is_available_for_customer_booking": true,
+                        "suggest_services": {
+                            "input": [
+                                "Deep Tissue Massage",
+                                "Deep",
+                                "Tissue",
+                                "Massage"
+                            ],
+                            "contexts": {
+                                "business_categories": [
+                                    "4",
+                                    "*"
+                                ],
+                                "is_b_listing": false,
+                                "location": "40.36254476403089,-111.74889936730521"
+                            }
+                        },
+                        "price": 75.0,
+                        "treatment_parent_id": 4,
+                        "name": "Deep Tissue Massage",
+                        "id": 6758703,
+                        "combo_type": null,
+                        "addons_available": false,
+                        "is_traveling_service": false,
+                        "order": 4,
+                        "service_price": "$75.00+"
+                    },
+                    {
+                        "padding_type": "",
+                        "note": "",
+                        "treatment": {
+                            "name": "Cupping",
+                            "id": 440
+                        },
+                        "description_type": "M",
+                        "active": true,
+                        "description": "Cupping is an ancient technique that originates from China, and has gained popularity in recent years. It is used to help relieve pain and inflammation, promote circulation, increase range of motion, and decompress soft tissue using vacuum suction to decrease muscle tightness. Cupping massage combines push and pull to maximize adhesion release by lifting the tissue with the cupping therapy, and then pressing into the muscle with massage. 90 minutes is required for a full body cupping session. 60 minutes is suitable for upper body only, or focus work on other areas of the body. It is normal to have circular sometimes sensitive cupping marks following a cupping massage. You should avoid cupping if you have any of the following conditions: Anemia, hemophilia (or any other bleeding disorder), blood clotting issues, DVT, a history of strokes, cardiovascular disease, a pace maker, topical skin conditions such as psoriasis and eczema, or epilepsy. After receiving cupping therapy, to maximize the benefits and allow the body to process the treatment to the fullest extent, one should avoid hot showers, hot tubs, saunas, extreme cold, intense exercise, the consumption of caffeine, alcohol, processed or sugary food and drinks, and dairy for 4-6 hours post treatment. Avoiding these things allows your body to give full focus and energy to processing the treatment.",
+                        "treatment_id": 440,
+                        "is_online_service": false,
+                        "variants": [
+                            {
+                                "duration": 60,
+                                "deposit_tax": 0.0,
+                                "prepayment_tax": 0.0,
+                                "price": 85.0,
+                                "deposit": 0.0,
+                                "id": 15390965,
+                                "label": "60 min Focused Area Cupping Massage",
+                                "type": "X",
+                                "combo_children": [],
+                                "staffer_id": [
+                                    992873,
+                                    992881
+                                ],
+                                "prepayment": 0.0,
+                                "promotion": null,
+                                "service_price": "$85.00"
+                            },
+                            {
+                                "duration": 90,
+                                "deposit_tax": 0.0,
+                                "prepayment_tax": 0.0,
+                                "price": 130.0,
+                                "deposit": 0.0,
+                                "id": 15390966,
+                                "label": "90 min Full Body Cupping Massage",
+                                "type": "X",
+                                "combo_children": [],
+                                "staffer_id": [
+                                    992873,
+                                    992881
+                                ],
+                                "prepayment": 0.0,
+                                "promotion": null,
+                                "service_price": "$130.00"
+                            }
+                        ],
+                        "partner_app_data": {},
+                        "type": "S",
+                        "staffer_id": [
+                            992873,
+                            992881
+                        ],
+                        "photos": [],
+                        "is_available_for_customer_booking": true,
+                        "suggest_services": {
+                            "input": [
+                                "Cupping Massage",
+                                "Cupping",
+                                "Massage"
+                            ],
+                            "contexts": {
+                                "business_categories": [
+                                    "4",
+                                    "*"
+                                ],
+                                "is_b_listing": false,
+                                "location": "40.36254476403089,-111.74889936730521"
+                            }
+                        },
+                        "price": 85.0,
+                        "treatment_parent_id": 4,
+                        "name": "Cupping Massage",
+                        "id": 6759010,
+                        "combo_type": null,
+                        "addons_available": false,
+                        "is_traveling_service": false,
+                        "order": 5,
+                        "service_price": "$85.00+"
+                    },
+                    {
+                        "padding_type": "",
+                        "note": "",
+                        "treatment": {
+                            "name": "Hot stone massage",
+                            "id": 445
+                        },
+                        "description_type": "M",
+                        "active": true,
+                        "description": "Hot stone massage uses smooth basalt stones heated to the perfect temperature to help melt away tension and stress. This massage utilizes the heat of the stones to penetrate down into the muscles to help obtain full release and relaxation. The stones can be placed onto the skin directly or on top of a sheet and are heated to a temperature between 110-130 degrees Fahrenheit. Hot stone massage is the perfect way to melt away the worries and stress of life.",
+                        "treatment_id": 445,
+                        "is_online_service": false,
+                        "variants": [
+                            {
+                                "duration": 60,
+                                "deposit_tax": 0.0,
+                                "prepayment_tax": 0.0,
+                                "price": 85.0,
+                                "deposit": 0.0,
+                                "id": 15391090,
+                                "label": "60 min Hot Stone Massage",
+                                "type": "X",
+                                "combo_children": [],
+                                "staffer_id": [
+                                    992873,
+                                    992881
+                                ],
+                                "prepayment": 0.0,
+                                "promotion": null,
+                                "service_price": "$85.00"
+                            },
+                            {
+                                "duration": 90,
+                                "deposit_tax": 0.0,
+                                "prepayment_tax": 0.0,
+                                "price": 130.0,
+                                "deposit": 0.0,
+                                "id": 15391091,
+                                "label": "90 min Hot Stone Massage",
+                                "type": "X",
+                                "combo_children": [],
+                                "staffer_id": [
+                                    992873,
+                                    992881
+                                ],
+                                "prepayment": 0.0,
+                                "promotion": null,
+                                "service_price": "$130.00"
+                            }
+                        ],
+                        "partner_app_data": {},
+                        "type": "S",
+                        "staffer_id": [
+                            992873,
+                            992881
+                        ],
+                        "photos": [],
+                        "is_available_for_customer_booking": true,
+                        "suggest_services": {
+                            "input": [
+                                "Hot Stone Massage",
+                                "Hot",
+                                "Stone",
+                                "Massage"
+                            ],
+                            "contexts": {
+                                "business_categories": [
+                                    "4",
+                                    "*"
+                                ],
+                                "is_b_listing": false,
+                                "location": "40.36254476403089,-111.74889936730521"
+                            }
+                        },
+                        "price": 85.0,
+                        "treatment_parent_id": 4,
+                        "name": "Hot Stone Massage",
+                        "id": 6759129,
+                        "combo_type": null,
+                        "addons_available": false,
+                        "is_traveling_service": false,
+                        "order": 6,
+                        "service_price": "$85.00+"
+                    },
+                    {
+                        "padding_type": "",
+                        "note": "",
+                        "treatment": null,
+                        "description_type": "M",
+                        "active": true,
+                        "description": "Focusing on the head and neck only, this massage uses a combination of gentle touch and deeper scalp massage to promote healing and relaxation in an area of the body that is notorious for holding stress.",
+                        "treatment_id": null,
+                        "is_online_service": false,
+                        "variants": [
+                            {
+                                "duration": 30,
+                                "deposit_tax": 0.0,
+                                "prepayment_tax": 0.0,
+                                "price": 35.0,
+                                "deposit": 0.0,
+                                "id": 15391136,
+                                "label": "",
+                                "type": "X",
+                                "combo_children": [],
+                                "staffer_id": [
+                                    992873,
+                                    992881
+                                ],
+                                "prepayment": 0.0,
+                                "promotion": null,
+                                "service_price": "$35.00"
+                            }
+                        ],
+                        "partner_app_data": {},
+                        "type": "X",
+                        "staffer_id": [
+                            992873,
+                            992881
+                        ],
+                        "photos": [],
+                        "is_available_for_customer_booking": true,
+                        "suggest_services": {
+                            "input": [
+                                "Head and Neck Massage",
+                                "Head",
+                                "and",
+                                "Neck",
+                                "Massage"
+                            ],
+                            "contexts": {
+                                "business_categories": [
+                                    "4",
+                                    "*"
+                                ],
+                                "is_b_listing": false,
+                                "location": "40.36254476403089,-111.74889936730521"
+                            }
+                        },
+                        "price": 35.0,
+                        "treatment_parent_id": null,
+                        "name": "Head and Neck Massage",
+                        "id": 6759172,
+                        "combo_type": null,
+                        "addons_available": false,
+                        "is_traveling_service": false,
+                        "order": 7,
+                        "service_price": "$35.00"
+                    },
+                    {
+                        "padding_type": "",
+                        "note": "",
+                        "treatment": null,
+                        "description_type": "M",
+                        "active": true,
+                        "description": "By popular request, this massage is a very gentle and light touch that caresses away stress. also known as a back \"scratch\" or \"tickle\" often this massage feels very healing to ones inner child and releases internal hurt and stress in a whole new way.",
+                        "treatment_id": null,
+                        "is_online_service": false,
+                        "variants": [
+                            {
+                                "duration": 30,
+                                "deposit_tax": 0.0,
+                                "prepayment_tax": 0.0,
+                                "price": 35.0,
+                                "deposit": 0.0,
+                                "id": 15391179,
+                                "label": "30 min Gentle Touch massage",
+                                "type": "X",
+                                "combo_children": [],
+                                "staffer_id": [
+                                    992873,
+                                    992881
+                                ],
+                                "prepayment": 0.0,
+                                "promotion": null,
+                                "service_price": "$35.00"
+                            },
+                            {
+                                "duration": 60,
+                                "deposit_tax": 0.0,
+                                "prepayment_tax": 0.0,
+                                "price": 60.0,
+                                "deposit": 0.0,
+                                "id": 15391180,
+                                "label": "60 min Gentle Touch Massage",
+                                "type": "X",
+                                "combo_children": [],
+                                "staffer_id": [
+                                    992873,
+                                    992881
+                                ],
+                                "prepayment": 0.0,
+                                "promotion": null,
+                                "service_price": "$60.00"
+                            }
+                        ],
+                        "partner_app_data": {},
+                        "type": "S",
+                        "staffer_id": [
+                            992873,
+                            992881
+                        ],
+                        "photos": [],
+                        "is_available_for_customer_booking": true,
+                        "suggest_services": {
+                            "input": [
+                                "Gentle Touch Massage",
+                                "Gentle",
+                                "Touch",
+                                "Massage"
+                            ],
+                            "contexts": {
+                                "business_categories": [
+                                    "4",
+                                    "*"
+                                ],
+                                "is_b_listing": false,
+                                "location": "40.36254476403089,-111.74889936730521"
+                            }
+                        },
+                        "price": 35.0,
+                        "treatment_parent_id": null,
+                        "name": "Gentle Touch Massage",
+                        "id": 6759213,
+                        "combo_type": null,
+                        "addons_available": false,
+                        "is_traveling_service": false,
+                        "order": 8,
+                        "service_price": "$35.00+"
+                    },
+                    {
+                        "padding_type": "",
+                        "note": "",
+                        "treatment": {
+                            "name": "Prenatal massage",
+                            "id": 459
+                        },
+                        "description_type": "M",
+                        "active": true,
+                        "description": "A soothing Swedish massage modified to be relaxing and safe for you and baby.  We have prenatal bolster pillows for the ability to lie face down, or pillows to prop and position for side laying massage, so you get to choose what position feels safest and most comfortable for you and baby. When booking, please note how far along you are in your pregnancy. We look forward to helping you thank your body for the amazing work its doing.",
+                        "treatment_id": 459,
+                        "is_online_service": false,
+                        "variants": [
+                            {
+                                "duration": 60,
+                                "deposit_tax": 0.0,
+                                "prepayment_tax": 0.0,
+                                "price": 75.0,
+                                "deposit": 0.0,
+                                "id": 15394046,
+                                "label": "60 min Prenatal Massage",
+                                "type": "X",
+                                "combo_children": [],
+                                "staffer_id": [
+                                    992873,
+                                    992881
+                                ],
+                                "prepayment": 0.0,
+                                "promotion": null,
+                                "service_price": "$75.00"
+                            },
+                            {
+                                "duration": 90,
+                                "deposit_tax": 0.0,
+                                "prepayment_tax": 0.0,
+                                "price": 115.0,
+                                "deposit": 0.0,
+                                "id": 15394047,
+                                "label": "90 min Prenatal Massage",
+                                "type": "X",
+                                "combo_children": [],
+                                "staffer_id": [
+                                    992873,
+                                    992881
+                                ],
+                                "prepayment": 0.0,
+                                "promotion": null,
+                                "service_price": "$115.00"
+                            }
+                        ],
+                        "partner_app_data": {},
+                        "type": "S",
+                        "staffer_id": [
+                            992873,
+                            992881
+                        ],
+                        "photos": [],
+                        "is_available_for_customer_booking": true,
+                        "suggest_services": {
+                            "input": [
+                                "Prenatal Massage",
+                                "Prenatal",
+                                "Massage"
+                            ],
+                            "contexts": {
+                                "business_categories": [
+                                    "4",
+                                    "*"
+                                ],
+                                "is_b_listing": false,
+                                "location": "40.36254476403089,-111.74889936730521"
+                            }
+                        },
+                        "price": 75.0,
+                        "treatment_parent_id": 4,
+                        "name": "Prenatal Massage",
+                        "id": 6761872,
+                        "combo_type": null,
+                        "addons_available": false,
+                        "is_traveling_service": false,
+                        "order": 9,
+                        "service_price": "$75.00+"
+                    }
+                ],
+                "order": 0
+            }
+        ],
+        "booking_mode": "A",
+        "booking_policy": "Changes allowed up to 1 hours before visit",
+        "phone": "(385) 312-0741",
+        "website": null,
+        "facebook_link": null,
+        "instagram_link": null,
+        "credit_cards": null,
+        "ecommerce_link": null,
+        "booking_max_modification_time": 60,
+        "booking_max_lead_time": 129600,
+        "pos_pay_by_app_enabled": false,
+        "pos_market_pay_enabled": true,
+        "deposit_cancel_time": {},
+        "deposit_policy": "",
+        "service_fee": 0.0,
+        "parking": null,
+        "wheelchair_access": null,
+        "opening_hours_note": null,
+        "open_hours": [
+            {
+                "open_till": "13:00",
+                "open_from": "08:00",
+                "day_of_week": 2
+            },
+            {
+                "open_till": "13:00",
+                "open_from": "08:00",
+                "day_of_week": 4
+            }
+        ],
+        "open_hours_customizations": [],
+        "waitlist_disabled": false,
+        "top_services": [],
+        "is_recommended": false,
+        "max_discount_rate": 0,
+        "low_availability": false,
+        "url": "1042065_the-mindful-body-massage_massage_37870_pleasant-grove",
+        "salon_network": null,
+        "donations_enabled": false,
+        "has_online_services": false,
+        "has_online_vouchers": false,
+        "vouchers_online_sale_enabled": false,
+        "has_safety_rules": false,
+        "traveling": null,
+        "is_financial_institution": false,
+        "amenities": [],
+        "printer_config": false,
+        "partners": [],
+        "best_of_booksy_badge": null,
+        "profile_type": "normal",
+        "meta": {
+            "score": 4.0,
+            "id": "business:1042065",
+            "item_no": 0
+        }
+    }
+}

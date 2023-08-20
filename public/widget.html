@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Booksey Widget</title>
+    <style>
+      html {
+        height: 100%;
+        width: 100%;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+      }
+
+      .booksy-widget-container {
+        width: 250px !important;
+      }
+
+      .booksy-widget-button {
+        width: 250px !important;
+        background: #5c7f67 !important;
+        position: relative;
+      }
+
+      .booksy-widget-button:hover {
+        transform: scale(1) !important;
+      }
+
+      .booksy-widget-button::after {
+        content: "Book Appointment";
+        position: absolute;
+        width: 100%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: 600;
+        color: white;
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+          "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+          "Noto Color Emoji";
+      }
+    </style>
+  </head>
+  <body>
+    <script
+      type="text/javascript"
+      src="https://booksy.com/widget/code.js?id=1042065&country=us&lang=en"
+    ></script>
+  </body>
+</html>
