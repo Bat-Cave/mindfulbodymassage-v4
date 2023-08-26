@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import Button from "../UI/Button";
 import Modal from "../UI/Modal";
 
@@ -25,9 +25,14 @@ const BooksyWidget = () => {
   return (
     <Modal>
       <Modal.Button>
-        <Button size="large">Book Appointment</Button>
+        <Button
+          size="large"
+          className="hover:border-2 hover:border-primary hover:bg-primary"
+        >
+          Book Appointment
+        </Button>
       </Modal.Button>
-      <Modal.Content className="flex h-full w-[calc(100%-50px)] items-center justify-center border-0 p-0">
+      <Modal.Content className="flex h-full w-full items-center justify-center border-0 p-0">
         <div className="absolute right-[14px] top-[52px] z-50 flex h-10 w-12 items-center justify-center bg-transparent">
           <Modal.Close>
             <Button variant="text" className="h-full w-full"></Button>

@@ -23,6 +23,9 @@ export default {
 
         error: "#F87272",
       },
+      fontFamily: {
+        gabriela: "'Hahmlet', serif",
+      },
     },
   },
   daisyui: {

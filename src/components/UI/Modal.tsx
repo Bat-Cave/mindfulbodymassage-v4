@@ -55,17 +55,20 @@ Modal.Close = ModalClose;
 
 const DropdownMenuContext = createContext({ closeMenu: () => console.log("") });
 
+interface ModalProps extends React.ComponentProps<typeof Dialog.Portal> {
+  children: ReactNode;
+  className?: string;
+  overlayClasses?: string;
+  CloseButton?: React.FC<{ onClick: () => void }>;
+}
+
 function ModalChildren({
   children,
   className,
   overlayClasses,
   CloseButton,
-}: {
-  children: ReactNode;
-  className?: string;
-  overlayClasses?: string;
-  CloseButton?: React.FC<{ onClick: () => void }>;
-}) {
+  ...props
+}: ModalProps) {
   const { open, setOpen } = useContext(ModalContext);
   const controls = useAnimationControls();
 
@@ -84,7 +87,7 @@ function ModalChildren({
     <DropdownMenuContext.Provider value={{ closeMenu: () => void closeMenu() }}>
       <AnimatePresence>
         {open && (
-          <Dialog.Portal forceMount>
+          <Dialog.Portal forceMount {...props}>
             <Dialog.Overlay asChild>
               <motion.div
                 initial={{
@@ -117,7 +120,7 @@ function ModalChildren({
                   transform: "translate(-50%, -50%) scale(.75)",
                 }}
                 className={twMerge(
-                  "minW-[150px] maxW-[calc(100vw-50px)] fixed left-1/2 top-1/2 z-50 max-h-[calc(100vh-50px)] min-h-[50px] -translate-x-1/2 -translate-y-1/2 overflow-x-hidden rounded-xl border-4 border-transparent bg-white p-8 shadow",
+                  "fixed left-1/2 top-1/2 z-50 max-h-[calc(100vh-50px)] min-h-[50px] min-w-[150px] max-w-[calc(100vw-30px)] -translate-x-1/2 -translate-y-1/2 overflow-x-hidden rounded-xl border-4 border-transparent bg-white p-8 shadow sm:max-w-[calc(100vw-50px)]",
                   className
                 )}
               >

@@ -10,21 +10,19 @@ const Nav = () => {
   return (
     <nav
       className={twMerge(
-        "fixed top-0 z-10 w-full p-1 transition-colors md:p-4",
+        "fixed top-0 z-10 w-full p-1 transition-colors",
         solidNav && "bg-primary"
       )}
     >
       <div
         className={`navbar w-full rounded-md border-2 border-transparent transition-all duration-300`}
       >
-        <div className="navbar-start">
-          <Link
-            href="/"
-            className={`items-center justify-center text-xl normal-case text-white`}
-          >
-            The Mindful Body Massage
-          </Link>
-        </div>
+        <Link
+          href="/"
+          className={`items-center justify-center text-xl normal-case text-white`}
+        >
+          The Mindful Body Massage
+        </Link>
       </div>
     </nav>
   );
