@@ -120,7 +120,7 @@ function ModalChildren({
                   transform: "translate(-50%, -50%) scale(.75)",
                 }}
                 className={twMerge(
-                  "fixed left-1/2 top-1/2 z-50 max-h-[calc(100vh-50px)] min-h-[50px] w-full min-w-[150px] max-w-[calc(100vw-30px)] -translate-x-1/2 -translate-y-1/2 overflow-x-hidden rounded-xl border-4 border-transparent bg-white p-8 shadow sm:max-w-[calc(100vw-50px)]",
+                  "fixed left-1/2 top-1/2 z-50 max-h-[calc(100vh-50px)] min-h-[50px] w-full min-w-[150px] max-w-[calc(100vw-30px)] -translate-x-1/2 -translate-y-1/2 overflow-x-hidden rounded-xl border-4 border-transparent bg-white p-8 shadow sm:max-w-[calc(100vw-50px)] md:w-1/2",
                   className
                 )}
               >
