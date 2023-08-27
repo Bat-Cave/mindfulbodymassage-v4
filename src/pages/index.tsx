@@ -4,6 +4,8 @@ import BooksyWidget from "~/components/BooksyWidget";
 import { getRelevantInfo } from "~/utils/booksyInfo";
 import ProductCard from "~/components/ProductCard";
 import Cta from "~/components/CTA";
+import reviews, { featuredReviews } from "~/utils/reviews";
+import Ratings from "~/components/Ratings";
 
 export default function Home() {
   const { services } = getRelevantInfo();
@@ -44,6 +46,17 @@ export default function Home() {
               return <ProductCard key={service.id} product={service} />;
             })}
           </div>
+        </div>
+        <div className="flex justify-center">
+          <BooksyWidget />
+        </div>
+      </section>
+      <section className="mx-auto w-full max-w-7xl bg-white text-primary-content">
+        <div className="mx-auto px-5 py-24">
+          <h2 className="mb-6 text-center font-gabriela text-4xl font-bold">
+            Reviews
+          </h2>
+          <Ratings />
         </div>
       </section>
       <Cta />

@@ -9,4 +9,11 @@ const reviews = [
   "You are amazing at what you do! 5 ⭐'s",
 ];
 
+const featuredReviews = [
+  "You are amazing at what you do! 5 ⭐'s",
+  "Loved the use of hot towels, peppermint, and CDD. Pressure was perfect. I felt you cared about my needs and really focused on making sure  I felt okay throughout. Thank you! ❤️",
+  "12/10 - wonderful experience",
+];
+
+export { featuredReviews };
 export default reviews;

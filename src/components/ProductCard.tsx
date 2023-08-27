@@ -33,7 +33,7 @@ const ProductCard: React.FC<{ product: typeof service }> = ({ product }) => {
     variants?.[0]?.id ?? 0
   );
   return (
-    <div key={id} className="h-full overflow-hidden rounded-lg bg-white">
+    <div key={id} className="h-full rounded-lg bg-white">
       <div className="relative flex h-auto w-full items-end">
         <Image
           src={productImageMap[(id ?? "") as keyof typeof productImageMap]}

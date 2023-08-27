@@ -3,13 +3,12 @@ import React from "react";
 import BooksyWidget from "./BooksyWidget";
 import { getRelevantInfo } from "~/utils/booksyInfo";
 import { buttonVariants } from "./UI/Button";
-import { twMerge } from "tailwind-merge";
 
 const Cta = () => {
   const { phone } = getRelevantInfo();
   return (
     <>
-      <section className="mx-auto w-full max-w-7xl py-20 lg:py-[120px]">
+      <section className="mx-auto w-full max-w-7xl lg:py-[120px]">
         <div
           className={`relative z-10 overflow-hidden bg-primary-content px-3 py-12 sm:px-8 md:p-[70px]`}
         >
