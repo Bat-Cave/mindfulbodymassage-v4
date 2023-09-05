@@ -1,15 +1,11 @@
 import Head from "next/head";
 import heroImage from "../assets/home-hero.jpg";
 import BooksyWidget from "~/components/BooksyWidget";
-import { getRelevantInfo } from "~/utils/booksyInfo";
-import ProductCard from "~/components/ProductCard";
 import Cta from "~/components/CTA";
 import Ratings from "~/components/Ratings";
 import Button from "~/components/UI/Button";
 
 export default function Home() {
-  const { services } = getRelevantInfo();
-
   return (
     <>
       <Head>
