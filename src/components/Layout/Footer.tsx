@@ -5,9 +5,11 @@ const Footer = () => {
     <footer className="body-font bg-neutral text-neutral-content">
       <div className="container mx-auto flex flex-col items-center px-5 py-8 sm:flex-row">
         <a className="title-font flex items-center justify-center font-medium text-accent md:justify-start">
-          <span className="ml-3 text-xl">The Mindful Body Massage</span>
+          <span className="ml-3 font-gabriela text-xl">
+            The Mindful Body Massage
+          </span>
         </a>
-        <p className="mt-4 text-sm text-neutral-content sm:ml-4 sm:mt-0 sm:border-l-2 sm:border-neutral-focus sm:py-2 sm:pl-4">
+        <p className="mt-4 text-sm text-white sm:ml-4 sm:mt-0 sm:border-l-2 sm:border-neutral-focus sm:py-2 sm:pl-4">
           © 2023 Mindful Body Massage
         </p>
         <span className="mt-4 inline-flex justify-center sm:ml-auto sm:mt-0 sm:justify-start">

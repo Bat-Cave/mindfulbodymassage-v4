@@ -56,7 +56,7 @@ const ProductCard: React.FC<{ product: typeof service }> = ({ product }) => {
             <h3 className="font-gabriela text-2xl font-bold">{name}</h3>
             <p className="mt-4">{description}</p>
             <hr className="my-3 border-primary" />
-            <p className="flex items-center text-2xl font-semibold">
+            <div className="flex items-center text-2xl font-semibold">
               <span className="self-start text-sm">$</span>
               <Counter
                 value={
@@ -64,8 +64,8 @@ const ProductCard: React.FC<{ product: typeof service }> = ({ product }) => {
                     ?.price ?? 0
                 }
               />
-            </p>
-            <div className="mt-4 flex gap-3">
+            </div>
+            <div className="mt-4 flex flex-wrap gap-3">
               {variants?.map((variant) => {
                 const { id, duration } = variant;
                 return (

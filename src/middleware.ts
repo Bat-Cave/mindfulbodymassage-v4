@@ -11,7 +11,7 @@ export default authMiddleware({
       return Response.redirect(signIn);
     }
   },
-  publicRoutes: ["/", "/sign-in", "/reviews"],
+  publicRoutes: ["/", "/sign-in", "/reviews", "/services"],
 });
 
 export const config = {

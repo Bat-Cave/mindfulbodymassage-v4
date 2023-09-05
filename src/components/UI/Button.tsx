@@ -1,4 +1,4 @@
-import React, { forwardRef, type ForwardedRef } from "react";
+import React, { forwardRef, type ForwardedRef, LegacyRef } from "react";
 import { FocusRing } from "@react-aria/focus";
 import type { ButtonProps } from "./ButtonConstants";
 import { cva } from "class-variance-authority";
@@ -48,6 +48,28 @@ const Button: React.FC<ButtonProps> = forwardRef(
     },
     ref: ForwardedRef<HTMLButtonElement>
   ) => {
+    if (props.href) {
+      return (
+        <FocusRing
+          focusRingClass={twMerge(
+            `active:ring-primary-content ring-primary`,
+            `hover:ring-primary-content ring-1 ring-offset-2 ring-offset-white`
+          )}
+        >
+          <a
+            ref={ref as LegacyRef<HTMLAnchorElement>}
+            className={twMerge(buttonVariants({ variant, size }), className)}
+            style={{
+              WebkitTapHighlightColor: "transparent",
+            }}
+            {...props}
+          >
+            {isLoading ? <>Loading...</> : children}
+          </a>
+        </FocusRing>
+      );
+    }
+
     return (
       <FocusRing
         focusRingClass={twMerge(
