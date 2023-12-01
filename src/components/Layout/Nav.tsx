@@ -1,12 +1,13 @@
+"use client";
+
 // import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/router";
+import { usePathname } from "next/navigation";
 import { twMerge } from "tailwind-merge";
 import useScrollAmount from "~/utils/hooks/useScrollAmount";
 
 const Nav = () => {
-  const router = useRouter();
-  const location = router.pathname;
+  const location = usePathname();
 
   const scrollAmount = useScrollAmount();
   const solidNav = scrollAmount > 200 || location !== "/";

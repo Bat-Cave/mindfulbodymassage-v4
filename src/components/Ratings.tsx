@@ -1,3 +1,5 @@
+"use client";
+
 import reviews from "~/utils/reviews";
 import { motion, AnimatePresence, MotionConfig } from "framer-motion";
 import { useState } from "react";

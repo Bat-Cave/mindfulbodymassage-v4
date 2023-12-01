@@ -1,6 +1,7 @@
+"use client";
+
 import { useState } from "react";
 import { getRelevantInfo } from "~/utils/booksyInfo";
-import Modal from "./UI/Modal";
 import Button from "./UI/Button";
 import purpleFlowerGradient from "../assets/marek-piwnicki-QXgP8oIRMuY-unsplash.jpg";
 import ferns from "../assets/eugene-golovesov-moO8IJuBjaw-unsplash.jpg";
@@ -12,6 +13,7 @@ import handFlowers from "../assets/roberta-sorge-UvVVnUmW2mQ-unsplash.jpg";
 import Image from "next/image";
 import Counter from "./Counter";
 import { twMerge } from "tailwind-merge";
+import Modal from "./UI/Modal";
 
 const { services } = getRelevantInfo();
 const service = services?.[0];
@@ -33,7 +35,7 @@ const ProductCard: React.FC<{ product: typeof service }> = ({ product }) => {
     variants?.[0]?.id ?? 0
   );
   return (
-    <div key={id} className="h-full rounded-lg bg-white">
+    <div className="h-full rounded-lg bg-white">
       <div className="relative flex h-auto w-full items-end">
         <Image
           src={productImageMap[(id ?? "") as keyof typeof productImageMap]}

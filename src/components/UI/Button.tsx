@@ -1,3 +1,5 @@
+"use client";
+
 import React, { forwardRef, type ForwardedRef, type LegacyRef } from "react";
 import { FocusRing } from "@react-aria/focus";
 import type { ButtonProps } from "./ButtonConstants";
