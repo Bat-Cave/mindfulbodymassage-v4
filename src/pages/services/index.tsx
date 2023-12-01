@@ -3,7 +3,9 @@ import ProductCard from "~/components/ProductCard";
 import { getRelevantInfo } from "~/utils/booksyInfo";
 
 const Services = () => {
-  const { services } = getRelevantInfo();
+  const { services, ...rest } = getRelevantInfo();
+
+  console.log({ rest });
   return (
     <>
       <section className="mx-auto w-full max-w-7xl bg-white py-9 text-primary-content">

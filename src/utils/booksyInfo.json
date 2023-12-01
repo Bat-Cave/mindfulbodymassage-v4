@@ -4,7 +4,7 @@
         "name": "The Mindful Body Massage",
         "slug": "the-mindful-body-massage",
         "subdomain": "themindfulbodymassage",
-        "description": null,
+        "description": "At The Mindful Body Massage our clients are our top priority. We care about giving you a relaxing and healing experience everytime. We pride ourselves on good commuincation with our clients to ensure that the massage you recieve is tailored to your needs. We offer a several massage options and believe we have something for everyone. Here at The Mindful Body Massage, we combine the power of massage with other alternative healing modalities to give you the best experience possible in your healing journey. We are here and ready to welcome you to your own journey of healing and self love.",
         "business_categories": [
             {
                 "name": "Massage",
@@ -63,20 +63,98 @@
                 "longitude": -111.667589370638
             }
         ],
-        "thumbnail_photo": null,
+        "thumbnail_photo": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/logo/326e04ed8309461abc25c032e6513f-the-mindful-body-massage-logo-568401361714441998ae6fd2e90c25-booksy.jpeg",
         "photo": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/10c0a3a4f826401f8ab3496c14bd4d-the-mindful-body-massage-biz-photo-64bd45527b2e48f6abc6625b506437-booksy.jpeg",
         "location": {
             "coordinate": {
-                "latitude": 40.36254476403089,
-                "longitude": -111.74889936730521
+                "latitude": 40.36164951,
+                "longitude": -111.74894728
             },
             "address": "519 W State St., Pleasant Grove, 84062",
             "city": "Pleasant Grove"
         },
-        "reviews_rank": null,
-        "reviews_count": null,
-        "reviews_stars": 0,
-        "reviews": [],
+        "reviews_rank": 5.0,
+        "reviews_count": 2,
+        "reviews_stars": 5,
+        "reviews": [
+            {
+                "id": 6506006,
+                "rank": 5,
+                "title": "",
+                "review": "Heaven. Thank you for sharing your gift.",
+                "user": {
+                    "id": 8786908,
+                    "first_name": "Cristall",
+                    "last_name": "H…",
+                    "avatar": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/users/364873e41e9342beb37a2c4580e6f95e.jpeg"
+                },
+                "business": {
+                    "id": 1042065,
+                    "name": "The Mindful Body Massage",
+                    "reviews_count": 1,
+                    "reviews_stars": 5,
+                    "url": "1042065_the-mindful-body-massage_massage_37870_pleasant-grove",
+                    "thumbnail_photo": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/logo/326e04ed8309461abc25c032e6513f-the-mindful-body-massage-logo-568401361714441998ae6fd2e90c25-booksy.jpeg",
+                    "full_address": "519 W State St., 84062 Pleasant Grove"
+                },
+                "reply_content": null,
+                "reply_updated": null,
+                "created": "2023-10-03T20:14:29",
+                "updated": "2023-10-03T20:14:29",
+                "services": [
+                    {
+                        "id": 6758613,
+                        "name": "Swedish Massage",
+                        "treatment_id": 460
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 992873,
+                        "name": "Nicole Cutchins"
+                    }
+                ],
+                "source": null
+            },
+            {
+                "id": 6410211,
+                "rank": 5,
+                "title": "",
+                "review": "Amazing Experience! Nicole is professional through and through. On time, polite, courteous, and most of all: good at her profession.\n10/10 Would highly recommend!",
+                "user": {
+                    "id": 16912307,
+                    "first_name": "Travis",
+                    "last_name": "S…"
+                },
+                "business": {
+                    "id": 1042065,
+                    "name": "The Mindful Body Massage",
+                    "reviews_count": null,
+                    "reviews_stars": 0,
+                    "url": "1042065_the-mindful-body-massage_massage_37870_pleasant-grove",
+                    "thumbnail_photo": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/logo/326e04ed8309461abc25c032e6513f-the-mindful-body-massage-logo-568401361714441998ae6fd2e90c25-booksy.jpeg",
+                    "full_address": "519 W State St., 84062 Pleasant Grove"
+                },
+                "reply_content": null,
+                "reply_updated": null,
+                "created": "2023-09-07T03:03:55",
+                "updated": "2023-09-07T03:03:55",
+                "services": [
+                    {
+                        "id": 6758613,
+                        "name": "Swedish Massage",
+                        "treatment_id": 460
+                    }
+                ],
+                "staff": [
+                    {
+                        "id": 992873,
+                        "name": "Nicole Cutchins"
+                    }
+                ],
+                "source": null
+            }
+        ],
         "pricing_level": null,
         "promoted": false,
         "noindex": false,
@@ -94,7 +172,7 @@
                     "category": "biz_photo",
                     "is_cover_photo": true,
                     "inspiration_categories": [],
-                    "order": 0,
+                    "order": 4,
                     "visible": true,
                     "active": true,
                     "created": "2023-08-17T18:13:38",
@@ -145,10 +223,525 @@
                 }
             ],
             "cover_orig": [],
-            "logo": [],
-            "biz_photo": [],
-            "inspiration": [],
-            "biz_photo_count": 0,
+            "logo": [
+                {
+                    "image_id": 25728025,
+                    "business_id": 1042065,
+                    "tags": [],
+                    "staffers": [],
+                    "description": null,
+                    "image": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/logo/326e04ed8309461abc25c032e6513f-the-mindful-body-massage-logo-568401361714441998ae6fd2e90c25-booksy.jpeg",
+                    "height": 1170,
+                    "width": 1170,
+                    "category": "logo",
+                    "is_cover_photo": false,
+                    "inspiration_categories": [],
+                    "order": 0,
+                    "visible": true,
+                    "active": true,
+                    "created": "2023-09-07T02:52:36",
+                    "thumbnails": {
+                        "150,150": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/logo/326e04ed8309461abc25c032e6513f-the-mindful-body-massage-logo-568401361714441998ae6fd2e90c25-booksy.jpeg?size=240x240"
+                        },
+                        "70,70": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/logo/326e04ed8309461abc25c032e6513f-the-mindful-body-massage-logo-568401361714441998ae6fd2e90c25-booksy.jpeg?size=70x70"
+                        },
+                        "30,30": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/logo/326e04ed8309461abc25c032e6513f-the-mindful-body-massage-logo-568401361714441998ae6fd2e90c25-booksy.jpeg?size=30x30"
+                        },
+                        "400,400": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/logo/326e04ed8309461abc25c032e6513f-the-mindful-body-massage-logo-568401361714441998ae6fd2e90c25-booksy.jpeg?size=400x400"
+                        },
+                        "400,400-hr": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/logo/326e04ed8309461abc25c032e6513f-the-mindful-body-massage-logo-568401361714441998ae6fd2e90c25-booksy.jpeg?size=400x400-hr"
+                        },
+                        "240,240": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/logo/326e04ed8309461abc25c032e6513f-the-mindful-body-massage-logo-568401361714441998ae6fd2e90c25-booksy.jpeg?size=240x240"
+                        },
+                        "240,240-hr": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/logo/326e04ed8309461abc25c032e6513f-the-mindful-body-massage-logo-568401361714441998ae6fd2e90c25-booksy.jpeg?size=240x240-hr"
+                        }
+                    }
+                }
+            ],
+            "biz_photo": [
+                {
+                    "image_id": 25690592,
+                    "business_id": 1042065,
+                    "tags": [],
+                    "staffers": [],
+                    "description": null,
+                    "image": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/5509bd1f8d8142f69748a5d5f37b1b-the-mindful-body-massage-biz-photo-529cc4af88384299bb0ef1372c2de4-booksy.jpeg",
+                    "height": 183,
+                    "width": 275,
+                    "category": "biz_photo",
+                    "is_cover_photo": false,
+                    "inspiration_categories": [],
+                    "order": 0,
+                    "visible": true,
+                    "active": true,
+                    "created": "2023-09-01T04:06:31",
+                    "thumbnails": {
+                        "1170,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/5509bd1f8d8142f69748a5d5f37b1b-the-mindful-body-massage-biz-photo-529cc4af88384299bb0ef1372c2de4-booksy.jpeg?size=1170x0"
+                        },
+                        "1170,1170": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/5509bd1f8d8142f69748a5d5f37b1b-the-mindful-body-massage-biz-photo-529cc4af88384299bb0ef1372c2de4-booksy.jpeg?size=1170x1170"
+                        },
+                        "750,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/5509bd1f8d8142f69748a5d5f37b1b-the-mindful-body-massage-biz-photo-529cc4af88384299bb0ef1372c2de4-booksy.jpeg?size=750x0"
+                        },
+                        "750,750": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/5509bd1f8d8142f69748a5d5f37b1b-the-mindful-body-massage-biz-photo-529cc4af88384299bb0ef1372c2de4-booksy.jpeg?size=750x750"
+                        },
+                        "360,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/5509bd1f8d8142f69748a5d5f37b1b-the-mindful-body-massage-biz-photo-529cc4af88384299bb0ef1372c2de4-booksy.jpeg?size=360x0"
+                        },
+                        "360,360": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/5509bd1f8d8142f69748a5d5f37b1b-the-mindful-body-massage-biz-photo-529cc4af88384299bb0ef1372c2de4-booksy.jpeg?size=360x360"
+                        },
+                        "150,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/5509bd1f8d8142f69748a5d5f37b1b-the-mindful-body-massage-biz-photo-529cc4af88384299bb0ef1372c2de4-booksy.jpeg?size=150x0"
+                        },
+                        "150,150": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/5509bd1f8d8142f69748a5d5f37b1b-the-mindful-body-massage-biz-photo-529cc4af88384299bb0ef1372c2de4-booksy.jpeg?size=150x150"
+                        },
+                        "750,500": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/5509bd1f8d8142f69748a5d5f37b1b-the-mindful-body-massage-biz-photo-529cc4af88384299bb0ef1372c2de4-booksy.jpeg?size=750x500"
+                        },
+                        "640,0-hr": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/5509bd1f8d8142f69748a5d5f37b1b-the-mindful-body-massage-biz-photo-529cc4af88384299bb0ef1372c2de4-booksy.jpeg?size=640x0-hr"
+                        },
+                        "640,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/5509bd1f8d8142f69748a5d5f37b1b-the-mindful-body-massage-biz-photo-529cc4af88384299bb0ef1372c2de4-booksy.jpeg?size=640x0"
+                        },
+                        "240,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/5509bd1f8d8142f69748a5d5f37b1b-the-mindful-body-massage-biz-photo-529cc4af88384299bb0ef1372c2de4-booksy.jpeg?size=240x0"
+                        },
+                        "640,427": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/5509bd1f8d8142f69748a5d5f37b1b-the-mindful-body-massage-biz-photo-529cc4af88384299bb0ef1372c2de4-booksy.jpeg?size=640x427"
+                        },
+                        "640,427-hr": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/5509bd1f8d8142f69748a5d5f37b1b-the-mindful-body-massage-biz-photo-529cc4af88384299bb0ef1372c2de4-booksy.jpeg?size=640x427-hr"
+                        }
+                    }
+                },
+                {
+                    "image_id": 25690591,
+                    "business_id": 1042065,
+                    "tags": [],
+                    "staffers": [],
+                    "description": null,
+                    "image": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/9832c24791de4b5c8df6e54d80ff7f-the-mindful-body-massage-biz-photo-9532951242ef44d0b21cbd7aa91e06-booksy.jpeg",
+                    "height": 183,
+                    "width": 275,
+                    "category": "biz_photo",
+                    "is_cover_photo": false,
+                    "inspiration_categories": [],
+                    "order": 1,
+                    "visible": true,
+                    "active": true,
+                    "created": "2023-09-01T04:06:31",
+                    "thumbnails": {
+                        "1170,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/9832c24791de4b5c8df6e54d80ff7f-the-mindful-body-massage-biz-photo-9532951242ef44d0b21cbd7aa91e06-booksy.jpeg?size=1170x0"
+                        },
+                        "1170,1170": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/9832c24791de4b5c8df6e54d80ff7f-the-mindful-body-massage-biz-photo-9532951242ef44d0b21cbd7aa91e06-booksy.jpeg?size=1170x1170"
+                        },
+                        "750,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/9832c24791de4b5c8df6e54d80ff7f-the-mindful-body-massage-biz-photo-9532951242ef44d0b21cbd7aa91e06-booksy.jpeg?size=750x0"
+                        },
+                        "750,750": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/9832c24791de4b5c8df6e54d80ff7f-the-mindful-body-massage-biz-photo-9532951242ef44d0b21cbd7aa91e06-booksy.jpeg?size=750x750"
+                        },
+                        "360,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/9832c24791de4b5c8df6e54d80ff7f-the-mindful-body-massage-biz-photo-9532951242ef44d0b21cbd7aa91e06-booksy.jpeg?size=360x0"
+                        },
+                        "360,360": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/9832c24791de4b5c8df6e54d80ff7f-the-mindful-body-massage-biz-photo-9532951242ef44d0b21cbd7aa91e06-booksy.jpeg?size=360x360"
+                        },
+                        "150,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/9832c24791de4b5c8df6e54d80ff7f-the-mindful-body-massage-biz-photo-9532951242ef44d0b21cbd7aa91e06-booksy.jpeg?size=150x0"
+                        },
+                        "150,150": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/9832c24791de4b5c8df6e54d80ff7f-the-mindful-body-massage-biz-photo-9532951242ef44d0b21cbd7aa91e06-booksy.jpeg?size=150x150"
+                        },
+                        "750,500": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/9832c24791de4b5c8df6e54d80ff7f-the-mindful-body-massage-biz-photo-9532951242ef44d0b21cbd7aa91e06-booksy.jpeg?size=750x500"
+                        },
+                        "640,0-hr": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/9832c24791de4b5c8df6e54d80ff7f-the-mindful-body-massage-biz-photo-9532951242ef44d0b21cbd7aa91e06-booksy.jpeg?size=640x0-hr"
+                        },
+                        "640,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/9832c24791de4b5c8df6e54d80ff7f-the-mindful-body-massage-biz-photo-9532951242ef44d0b21cbd7aa91e06-booksy.jpeg?size=640x0"
+                        },
+                        "240,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/9832c24791de4b5c8df6e54d80ff7f-the-mindful-body-massage-biz-photo-9532951242ef44d0b21cbd7aa91e06-booksy.jpeg?size=240x0"
+                        },
+                        "640,427": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/9832c24791de4b5c8df6e54d80ff7f-the-mindful-body-massage-biz-photo-9532951242ef44d0b21cbd7aa91e06-booksy.jpeg?size=640x427"
+                        },
+                        "640,427-hr": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/9832c24791de4b5c8df6e54d80ff7f-the-mindful-body-massage-biz-photo-9532951242ef44d0b21cbd7aa91e06-booksy.jpeg?size=640x427-hr"
+                        }
+                    }
+                },
+                {
+                    "image_id": 25690590,
+                    "business_id": 1042065,
+                    "tags": [],
+                    "staffers": [],
+                    "description": null,
+                    "image": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/cf24fcc882e240a5b9f78adcd8bf83-the-mindful-body-massage-biz-photo-e470d59533f54e5ca45e2748e5343c-booksy.jpeg",
+                    "height": 146,
+                    "width": 220,
+                    "category": "biz_photo",
+                    "is_cover_photo": false,
+                    "inspiration_categories": [],
+                    "order": 2,
+                    "visible": true,
+                    "active": true,
+                    "created": "2023-09-01T04:06:30",
+                    "thumbnails": {
+                        "1170,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/cf24fcc882e240a5b9f78adcd8bf83-the-mindful-body-massage-biz-photo-e470d59533f54e5ca45e2748e5343c-booksy.jpeg?size=1170x0"
+                        },
+                        "1170,1170": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/cf24fcc882e240a5b9f78adcd8bf83-the-mindful-body-massage-biz-photo-e470d59533f54e5ca45e2748e5343c-booksy.jpeg?size=1170x1170"
+                        },
+                        "750,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/cf24fcc882e240a5b9f78adcd8bf83-the-mindful-body-massage-biz-photo-e470d59533f54e5ca45e2748e5343c-booksy.jpeg?size=750x0"
+                        },
+                        "750,750": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/cf24fcc882e240a5b9f78adcd8bf83-the-mindful-body-massage-biz-photo-e470d59533f54e5ca45e2748e5343c-booksy.jpeg?size=750x750"
+                        },
+                        "360,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/cf24fcc882e240a5b9f78adcd8bf83-the-mindful-body-massage-biz-photo-e470d59533f54e5ca45e2748e5343c-booksy.jpeg?size=360x0"
+                        },
+                        "360,360": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/cf24fcc882e240a5b9f78adcd8bf83-the-mindful-body-massage-biz-photo-e470d59533f54e5ca45e2748e5343c-booksy.jpeg?size=360x360"
+                        },
+                        "150,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/cf24fcc882e240a5b9f78adcd8bf83-the-mindful-body-massage-biz-photo-e470d59533f54e5ca45e2748e5343c-booksy.jpeg?size=150x0"
+                        },
+                        "150,150": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/cf24fcc882e240a5b9f78adcd8bf83-the-mindful-body-massage-biz-photo-e470d59533f54e5ca45e2748e5343c-booksy.jpeg?size=150x150"
+                        },
+                        "750,500": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/cf24fcc882e240a5b9f78adcd8bf83-the-mindful-body-massage-biz-photo-e470d59533f54e5ca45e2748e5343c-booksy.jpeg?size=750x500"
+                        },
+                        "640,0-hr": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/cf24fcc882e240a5b9f78adcd8bf83-the-mindful-body-massage-biz-photo-e470d59533f54e5ca45e2748e5343c-booksy.jpeg?size=640x0-hr"
+                        },
+                        "640,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/cf24fcc882e240a5b9f78adcd8bf83-the-mindful-body-massage-biz-photo-e470d59533f54e5ca45e2748e5343c-booksy.jpeg?size=640x0"
+                        },
+                        "240,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/cf24fcc882e240a5b9f78adcd8bf83-the-mindful-body-massage-biz-photo-e470d59533f54e5ca45e2748e5343c-booksy.jpeg?size=240x0"
+                        },
+                        "640,427": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/cf24fcc882e240a5b9f78adcd8bf83-the-mindful-body-massage-biz-photo-e470d59533f54e5ca45e2748e5343c-booksy.jpeg?size=640x427"
+                        },
+                        "640,427-hr": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/cf24fcc882e240a5b9f78adcd8bf83-the-mindful-body-massage-biz-photo-e470d59533f54e5ca45e2748e5343c-booksy.jpeg?size=640x427-hr"
+                        }
+                    }
+                },
+                {
+                    "image_id": 25690589,
+                    "business_id": 1042065,
+                    "tags": [],
+                    "staffers": [],
+                    "description": null,
+                    "image": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/8c8850aae1d14ca18cf3416ed858f1-the-mindful-body-massage-biz-photo-23c8cce0527d4514ba41f51ae272d9-booksy.jpeg",
+                    "height": 173,
+                    "width": 259,
+                    "category": "biz_photo",
+                    "is_cover_photo": false,
+                    "inspiration_categories": [],
+                    "order": 3,
+                    "visible": true,
+                    "active": true,
+                    "created": "2023-09-01T04:06:30",
+                    "thumbnails": {
+                        "1170,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/8c8850aae1d14ca18cf3416ed858f1-the-mindful-body-massage-biz-photo-23c8cce0527d4514ba41f51ae272d9-booksy.jpeg?size=1170x0"
+                        },
+                        "1170,1170": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/8c8850aae1d14ca18cf3416ed858f1-the-mindful-body-massage-biz-photo-23c8cce0527d4514ba41f51ae272d9-booksy.jpeg?size=1170x1170"
+                        },
+                        "750,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/8c8850aae1d14ca18cf3416ed858f1-the-mindful-body-massage-biz-photo-23c8cce0527d4514ba41f51ae272d9-booksy.jpeg?size=750x0"
+                        },
+                        "750,750": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/8c8850aae1d14ca18cf3416ed858f1-the-mindful-body-massage-biz-photo-23c8cce0527d4514ba41f51ae272d9-booksy.jpeg?size=750x750"
+                        },
+                        "360,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/8c8850aae1d14ca18cf3416ed858f1-the-mindful-body-massage-biz-photo-23c8cce0527d4514ba41f51ae272d9-booksy.jpeg?size=360x0"
+                        },
+                        "360,360": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/8c8850aae1d14ca18cf3416ed858f1-the-mindful-body-massage-biz-photo-23c8cce0527d4514ba41f51ae272d9-booksy.jpeg?size=360x360"
+                        },
+                        "150,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/8c8850aae1d14ca18cf3416ed858f1-the-mindful-body-massage-biz-photo-23c8cce0527d4514ba41f51ae272d9-booksy.jpeg?size=150x0"
+                        },
+                        "150,150": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/8c8850aae1d14ca18cf3416ed858f1-the-mindful-body-massage-biz-photo-23c8cce0527d4514ba41f51ae272d9-booksy.jpeg?size=150x150"
+                        },
+                        "750,500": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/8c8850aae1d14ca18cf3416ed858f1-the-mindful-body-massage-biz-photo-23c8cce0527d4514ba41f51ae272d9-booksy.jpeg?size=750x500"
+                        },
+                        "640,0-hr": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/8c8850aae1d14ca18cf3416ed858f1-the-mindful-body-massage-biz-photo-23c8cce0527d4514ba41f51ae272d9-booksy.jpeg?size=640x0-hr"
+                        },
+                        "640,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/8c8850aae1d14ca18cf3416ed858f1-the-mindful-body-massage-biz-photo-23c8cce0527d4514ba41f51ae272d9-booksy.jpeg?size=640x0"
+                        },
+                        "240,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/8c8850aae1d14ca18cf3416ed858f1-the-mindful-body-massage-biz-photo-23c8cce0527d4514ba41f51ae272d9-booksy.jpeg?size=240x0"
+                        },
+                        "640,427": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/8c8850aae1d14ca18cf3416ed858f1-the-mindful-body-massage-biz-photo-23c8cce0527d4514ba41f51ae272d9-booksy.jpeg?size=640x427"
+                        },
+                        "640,427-hr": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/biz_photo/8c8850aae1d14ca18cf3416ed858f1-the-mindful-body-massage-biz-photo-23c8cce0527d4514ba41f51ae272d9-booksy.jpeg?size=640x427-hr"
+                        }
+                    }
+                }
+            ],
+            "inspiration": [
+                {
+                    "image_id": 25692657,
+                    "business_id": 1042065,
+                    "tags": [],
+                    "staffers": [],
+                    "description": "",
+                    "image": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/a9d7a9c0fbe445d39e1ac546e7bfaa-the-mindful-body-massage-inspiration-4b20e431a4d642bc8769dfcb8c93cd-booksy.jpeg",
+                    "height": 183,
+                    "width": 183,
+                    "category": "inspiration",
+                    "is_cover_photo": false,
+                    "inspiration_categories": [
+                        4
+                    ],
+                    "order": 0,
+                    "visible": true,
+                    "active": true,
+                    "created": "2023-09-01T16:34:31",
+                    "thumbnails": {
+                        "1170,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/a9d7a9c0fbe445d39e1ac546e7bfaa-the-mindful-body-massage-inspiration-4b20e431a4d642bc8769dfcb8c93cd-booksy.jpeg?size=1170x0"
+                        },
+                        "1170,1170": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/a9d7a9c0fbe445d39e1ac546e7bfaa-the-mindful-body-massage-inspiration-4b20e431a4d642bc8769dfcb8c93cd-booksy.jpeg?size=1170x1170"
+                        },
+                        "750,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/a9d7a9c0fbe445d39e1ac546e7bfaa-the-mindful-body-massage-inspiration-4b20e431a4d642bc8769dfcb8c93cd-booksy.jpeg?size=750x0"
+                        },
+                        "750,750": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/a9d7a9c0fbe445d39e1ac546e7bfaa-the-mindful-body-massage-inspiration-4b20e431a4d642bc8769dfcb8c93cd-booksy.jpeg?size=750x750"
+                        },
+                        "360,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/a9d7a9c0fbe445d39e1ac546e7bfaa-the-mindful-body-massage-inspiration-4b20e431a4d642bc8769dfcb8c93cd-booksy.jpeg?size=360x0"
+                        },
+                        "360,360": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/a9d7a9c0fbe445d39e1ac546e7bfaa-the-mindful-body-massage-inspiration-4b20e431a4d642bc8769dfcb8c93cd-booksy.jpeg?size=360x360"
+                        },
+                        "150,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/a9d7a9c0fbe445d39e1ac546e7bfaa-the-mindful-body-massage-inspiration-4b20e431a4d642bc8769dfcb8c93cd-booksy.jpeg?size=150x0"
+                        },
+                        "150,150": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/a9d7a9c0fbe445d39e1ac546e7bfaa-the-mindful-body-massage-inspiration-4b20e431a4d642bc8769dfcb8c93cd-booksy.jpeg?size=150x150"
+                        },
+                        "750,500": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/a9d7a9c0fbe445d39e1ac546e7bfaa-the-mindful-body-massage-inspiration-4b20e431a4d642bc8769dfcb8c93cd-booksy.jpeg?size=750x500"
+                        },
+                        "640,0-hr": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/a9d7a9c0fbe445d39e1ac546e7bfaa-the-mindful-body-massage-inspiration-4b20e431a4d642bc8769dfcb8c93cd-booksy.jpeg?size=640x0-hr"
+                        },
+                        "640,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/a9d7a9c0fbe445d39e1ac546e7bfaa-the-mindful-body-massage-inspiration-4b20e431a4d642bc8769dfcb8c93cd-booksy.jpeg?size=640x0"
+                        },
+                        "240,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/a9d7a9c0fbe445d39e1ac546e7bfaa-the-mindful-body-massage-inspiration-4b20e431a4d642bc8769dfcb8c93cd-booksy.jpeg?size=240x0"
+                        }
+                    }
+                },
+                {
+                    "image_id": 25692656,
+                    "business_id": 1042065,
+                    "tags": [],
+                    "staffers": [],
+                    "description": "",
+                    "image": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/297ee198583d49dcbe5e87a6605acc-the-mindful-body-massage-inspiration-149770f6da0040209d841bb6e9661d-booksy.jpeg",
+                    "height": 183,
+                    "width": 183,
+                    "category": "inspiration",
+                    "is_cover_photo": false,
+                    "inspiration_categories": [
+                        4
+                    ],
+                    "order": 1,
+                    "visible": true,
+                    "active": true,
+                    "created": "2023-09-01T16:34:31",
+                    "thumbnails": {
+                        "1170,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/297ee198583d49dcbe5e87a6605acc-the-mindful-body-massage-inspiration-149770f6da0040209d841bb6e9661d-booksy.jpeg?size=1170x0"
+                        },
+                        "1170,1170": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/297ee198583d49dcbe5e87a6605acc-the-mindful-body-massage-inspiration-149770f6da0040209d841bb6e9661d-booksy.jpeg?size=1170x1170"
+                        },
+                        "750,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/297ee198583d49dcbe5e87a6605acc-the-mindful-body-massage-inspiration-149770f6da0040209d841bb6e9661d-booksy.jpeg?size=750x0"
+                        },
+                        "750,750": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/297ee198583d49dcbe5e87a6605acc-the-mindful-body-massage-inspiration-149770f6da0040209d841bb6e9661d-booksy.jpeg?size=750x750"
+                        },
+                        "360,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/297ee198583d49dcbe5e87a6605acc-the-mindful-body-massage-inspiration-149770f6da0040209d841bb6e9661d-booksy.jpeg?size=360x0"
+                        },
+                        "360,360": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/297ee198583d49dcbe5e87a6605acc-the-mindful-body-massage-inspiration-149770f6da0040209d841bb6e9661d-booksy.jpeg?size=360x360"
+                        },
+                        "150,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/297ee198583d49dcbe5e87a6605acc-the-mindful-body-massage-inspiration-149770f6da0040209d841bb6e9661d-booksy.jpeg?size=150x0"
+                        },
+                        "150,150": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/297ee198583d49dcbe5e87a6605acc-the-mindful-body-massage-inspiration-149770f6da0040209d841bb6e9661d-booksy.jpeg?size=150x150"
+                        },
+                        "750,500": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/297ee198583d49dcbe5e87a6605acc-the-mindful-body-massage-inspiration-149770f6da0040209d841bb6e9661d-booksy.jpeg?size=750x500"
+                        },
+                        "640,0-hr": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/297ee198583d49dcbe5e87a6605acc-the-mindful-body-massage-inspiration-149770f6da0040209d841bb6e9661d-booksy.jpeg?size=640x0-hr"
+                        },
+                        "640,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/297ee198583d49dcbe5e87a6605acc-the-mindful-body-massage-inspiration-149770f6da0040209d841bb6e9661d-booksy.jpeg?size=640x0"
+                        },
+                        "240,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/297ee198583d49dcbe5e87a6605acc-the-mindful-body-massage-inspiration-149770f6da0040209d841bb6e9661d-booksy.jpeg?size=240x0"
+                        }
+                    }
+                },
+                {
+                    "image_id": 25692655,
+                    "business_id": 1042065,
+                    "tags": [],
+                    "staffers": [],
+                    "description": "",
+                    "image": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/7892b28798e94198b345a636779475-the-mindful-body-massage-inspiration-c9c07ad1cebe4416bd7b2a492ef6c1-booksy.jpeg",
+                    "height": 162,
+                    "width": 162,
+                    "category": "inspiration",
+                    "is_cover_photo": false,
+                    "inspiration_categories": [
+                        4
+                    ],
+                    "order": 2,
+                    "visible": true,
+                    "active": true,
+                    "created": "2023-09-01T16:34:30",
+                    "thumbnails": {
+                        "1170,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/7892b28798e94198b345a636779475-the-mindful-body-massage-inspiration-c9c07ad1cebe4416bd7b2a492ef6c1-booksy.jpeg?size=1170x0"
+                        },
+                        "1170,1170": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/7892b28798e94198b345a636779475-the-mindful-body-massage-inspiration-c9c07ad1cebe4416bd7b2a492ef6c1-booksy.jpeg?size=1170x1170"
+                        },
+                        "750,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/7892b28798e94198b345a636779475-the-mindful-body-massage-inspiration-c9c07ad1cebe4416bd7b2a492ef6c1-booksy.jpeg?size=750x0"
+                        },
+                        "750,750": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/7892b28798e94198b345a636779475-the-mindful-body-massage-inspiration-c9c07ad1cebe4416bd7b2a492ef6c1-booksy.jpeg?size=750x750"
+                        },
+                        "360,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/7892b28798e94198b345a636779475-the-mindful-body-massage-inspiration-c9c07ad1cebe4416bd7b2a492ef6c1-booksy.jpeg?size=360x0"
+                        },
+                        "360,360": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/7892b28798e94198b345a636779475-the-mindful-body-massage-inspiration-c9c07ad1cebe4416bd7b2a492ef6c1-booksy.jpeg?size=360x360"
+                        },
+                        "150,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/7892b28798e94198b345a636779475-the-mindful-body-massage-inspiration-c9c07ad1cebe4416bd7b2a492ef6c1-booksy.jpeg?size=150x0"
+                        },
+                        "150,150": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/7892b28798e94198b345a636779475-the-mindful-body-massage-inspiration-c9c07ad1cebe4416bd7b2a492ef6c1-booksy.jpeg?size=150x150"
+                        },
+                        "750,500": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/7892b28798e94198b345a636779475-the-mindful-body-massage-inspiration-c9c07ad1cebe4416bd7b2a492ef6c1-booksy.jpeg?size=750x500"
+                        },
+                        "640,0-hr": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/7892b28798e94198b345a636779475-the-mindful-body-massage-inspiration-c9c07ad1cebe4416bd7b2a492ef6c1-booksy.jpeg?size=640x0-hr"
+                        },
+                        "640,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/7892b28798e94198b345a636779475-the-mindful-body-massage-inspiration-c9c07ad1cebe4416bd7b2a492ef6c1-booksy.jpeg?size=640x0"
+                        },
+                        "240,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/7892b28798e94198b345a636779475-the-mindful-body-massage-inspiration-c9c07ad1cebe4416bd7b2a492ef6c1-booksy.jpeg?size=240x0"
+                        }
+                    }
+                },
+                {
+                    "image_id": 25692654,
+                    "business_id": 1042065,
+                    "tags": [],
+                    "staffers": [],
+                    "description": "",
+                    "image": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/fd1f33d7e91d4179b78371cf445b17-the-mindful-body-massage-inspiration-2a12d4ff598d48d89248804ef01e70-booksy.jpeg",
+                    "height": 126,
+                    "width": 126,
+                    "category": "inspiration",
+                    "is_cover_photo": false,
+                    "inspiration_categories": [
+                        4
+                    ],
+                    "order": 3,
+                    "visible": true,
+                    "active": true,
+                    "created": "2023-09-01T16:34:29",
+                    "thumbnails": {
+                        "1170,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/fd1f33d7e91d4179b78371cf445b17-the-mindful-body-massage-inspiration-2a12d4ff598d48d89248804ef01e70-booksy.jpeg?size=1170x0"
+                        },
+                        "1170,1170": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/fd1f33d7e91d4179b78371cf445b17-the-mindful-body-massage-inspiration-2a12d4ff598d48d89248804ef01e70-booksy.jpeg?size=1170x1170"
+                        },
+                        "750,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/fd1f33d7e91d4179b78371cf445b17-the-mindful-body-massage-inspiration-2a12d4ff598d48d89248804ef01e70-booksy.jpeg?size=750x0"
+                        },
+                        "750,750": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/fd1f33d7e91d4179b78371cf445b17-the-mindful-body-massage-inspiration-2a12d4ff598d48d89248804ef01e70-booksy.jpeg?size=750x750"
+                        },
+                        "360,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/fd1f33d7e91d4179b78371cf445b17-the-mindful-body-massage-inspiration-2a12d4ff598d48d89248804ef01e70-booksy.jpeg?size=360x0"
+                        },
+                        "360,360": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/fd1f33d7e91d4179b78371cf445b17-the-mindful-body-massage-inspiration-2a12d4ff598d48d89248804ef01e70-booksy.jpeg?size=360x360"
+                        },
+                        "150,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/fd1f33d7e91d4179b78371cf445b17-the-mindful-body-massage-inspiration-2a12d4ff598d48d89248804ef01e70-booksy.jpeg?size=150x0"
+                        },
+                        "150,150": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/fd1f33d7e91d4179b78371cf445b17-the-mindful-body-massage-inspiration-2a12d4ff598d48d89248804ef01e70-booksy.jpeg?size=150x150"
+                        },
+                        "750,500": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/fd1f33d7e91d4179b78371cf445b17-the-mindful-body-massage-inspiration-2a12d4ff598d48d89248804ef01e70-booksy.jpeg?size=750x500"
+                        },
+                        "640,0-hr": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/fd1f33d7e91d4179b78371cf445b17-the-mindful-body-massage-inspiration-2a12d4ff598d48d89248804ef01e70-booksy.jpeg?size=640x0-hr"
+                        },
+                        "640,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/fd1f33d7e91d4179b78371cf445b17-the-mindful-body-massage-inspiration-2a12d4ff598d48d89248804ef01e70-booksy.jpeg?size=640x0"
+                        },
+                        "240,0": {
+                            "url": "https://d2zdpiztbgorvt.cloudfront.net/region1/us/1042065/inspiration/fd1f33d7e91d4179b78371cf445b17-the-mindful-body-massage-inspiration-2a12d4ff598d48d89248804ef01e70-booksy.jpeg?size=240x0"
+                        }
+                    }
+                }
+            ],
+            "biz_photo_count": 4,
             "biz_photo_per_page": 20
         },
         "staff": [
@@ -171,32 +764,12 @@
                 },
                 "position": "",
                 "bookmarked": false
-            },
-            {
-                "id": 992881,
-                "name": "Rico Hancock",
-                "type": "S",
-                "visible": true,
-                "active": true,
-                "description": "",
-                "staff_user_exists": true,
-                "photo": null,
-                "photo_url": null,
-                "order": 0,
-                "popularity": 0,
-                "reviews_rank_score": 0.0,
-                "business": {
-                    "name": "The Mindful Body Massage",
-                    "id": 1042065
-                },
-                "position": "",
-                "bookmarked": false
             }
         ],
         "hidden_on_web": false,
         "is_renting_venue": false,
         "umbrella_venue_name": null,
-        "contractor_description": null,
+        "contractor_description": "",
         "is_b_listing": false,
         "service_categories": [
             {
@@ -208,7 +781,7 @@
                         "padding_type": "",
                         "note": "",
                         "treatment": {
-                            "name": "Swedish massage",
+                            "name": "Swedish Massage",
                             "id": 460
                         },
                         "description_type": "M",
@@ -222,61 +795,60 @@
                                 "deposit_tax": 0.0,
                                 "prepayment_tax": 0.0,
                                 "price": 75.0,
-                                "deposit": 0.0,
+                                "deposit": 37.5,
                                 "id": 15390698,
                                 "label": "60 min Swedish Massage",
                                 "type": "X",
                                 "combo_children": [],
                                 "staffer_id": [
-                                    992873,
-                                    992881
+                                    992873
                                 ],
                                 "prepayment": 0.0,
                                 "promotion": null,
-                                "service_price": "$75.00"
+                                "service_price": "$75.00",
+                                "omnibus_price": null
                             },
                             {
                                 "duration": 90,
                                 "deposit_tax": 0.0,
                                 "prepayment_tax": 0.0,
                                 "price": 115.0,
-                                "deposit": 0.0,
+                                "deposit": 57.5,
                                 "id": 15390523,
                                 "label": "90 min Swedish Massage",
                                 "type": "X",
                                 "combo_children": [],
                                 "staffer_id": [
-                                    992873,
-                                    992881
+                                    992873
                                 ],
                                 "prepayment": 0.0,
                                 "promotion": null,
-                                "service_price": "$115.00"
+                                "service_price": "$115.00",
+                                "omnibus_price": null
                             },
                             {
                                 "duration": 120,
                                 "deposit_tax": 0.0,
                                 "prepayment_tax": 0.0,
                                 "price": 150.0,
-                                "deposit": 0.0,
+                                "deposit": 75.0,
                                 "id": 15390641,
                                 "label": "120 min Swedish Massage",
                                 "type": "X",
                                 "combo_children": [],
                                 "staffer_id": [
-                                    992873,
-                                    992881
+                                    992873
                                 ],
                                 "prepayment": 0.0,
                                 "promotion": null,
-                                "service_price": "$150.00"
+                                "service_price": "$150.00",
+                                "omnibus_price": null
                             }
                         ],
                         "partner_app_data": {},
                         "type": "S",
                         "staffer_id": [
-                            992873,
-                            992881
+                            992873
                         ],
                         "photos": [],
                         "is_available_for_customer_booking": true,
@@ -292,7 +864,7 @@
                                     "*"
                                 ],
                                 "is_b_listing": false,
-                                "location": "40.36254476403089,-111.74889936730521"
+                                "location": "40.36164951,-111.74894728"
                             }
                         },
                         "price": 75.0,
@@ -309,7 +881,7 @@
                         "padding_type": "",
                         "note": "",
                         "treatment": {
-                            "name": "Deep tissue massage",
+                            "name": "Deep Tissue Massage",
                             "id": 454
                         },
                         "description_type": "M",
@@ -323,61 +895,60 @@
                                 "deposit_tax": 0.0,
                                 "prepayment_tax": 0.0,
                                 "price": 75.0,
-                                "deposit": 0.0,
+                                "deposit": 37.5,
                                 "id": 15390624,
                                 "label": "60 min Deep Tissue Massage",
                                 "type": "X",
                                 "combo_children": [],
                                 "staffer_id": [
-                                    992873,
-                                    992881
+                                    992873
                                 ],
                                 "prepayment": 0.0,
                                 "promotion": null,
-                                "service_price": "$75.00"
+                                "service_price": "$75.00",
+                                "omnibus_price": null
                             },
                             {
                                 "duration": 90,
                                 "deposit_tax": 0.0,
                                 "prepayment_tax": 0.0,
                                 "price": 115.0,
-                                "deposit": 0.0,
+                                "deposit": 57.5,
                                 "id": 15390707,
                                 "label": "90 min Deep Tissue Massage",
                                 "type": "X",
                                 "combo_children": [],
                                 "staffer_id": [
-                                    992873,
-                                    992881
+                                    992873
                                 ],
                                 "prepayment": 0.0,
                                 "promotion": null,
-                                "service_price": "$115.00"
+                                "service_price": "$115.00",
+                                "omnibus_price": null
                             },
                             {
                                 "duration": 120,
                                 "deposit_tax": 0.0,
                                 "prepayment_tax": 0.0,
                                 "price": 150.0,
-                                "deposit": 0.0,
+                                "deposit": 75.0,
                                 "id": 15390708,
                                 "label": "120 min Deep Tissue Massage",
                                 "type": "X",
                                 "combo_children": [],
                                 "staffer_id": [
-                                    992873,
-                                    992881
+                                    992873
                                 ],
                                 "prepayment": 0.0,
                                 "promotion": null,
-                                "service_price": "$150.00"
+                                "service_price": "$150.00",
+                                "omnibus_price": null
                             }
                         ],
                         "partner_app_data": {},
                         "type": "S",
                         "staffer_id": [
-                            992873,
-                            992881
+                            992873
                         ],
                         "photos": [],
                         "is_available_for_customer_booking": true,
@@ -394,7 +965,7 @@
                                     "*"
                                 ],
                                 "is_b_listing": false,
-                                "location": "40.36254476403089,-111.74889936730521"
+                                "location": "40.36164951,-111.74894728"
                             }
                         },
                         "price": 75.0,
@@ -411,7 +982,7 @@
                         "padding_type": "",
                         "note": "",
                         "treatment": {
-                            "name": "Cupping",
+                            "name": "Cupping Therapy",
                             "id": 440
                         },
                         "description_type": "M",
@@ -425,43 +996,42 @@
                                 "deposit_tax": 0.0,
                                 "prepayment_tax": 0.0,
                                 "price": 85.0,
-                                "deposit": 0.0,
+                                "deposit": 42.5,
                                 "id": 15390965,
                                 "label": "60 min Focused Area Cupping Massage",
                                 "type": "X",
                                 "combo_children": [],
                                 "staffer_id": [
-                                    992873,
-                                    992881
+                                    992873
                                 ],
                                 "prepayment": 0.0,
                                 "promotion": null,
-                                "service_price": "$85.00"
+                                "service_price": "$85.00",
+                                "omnibus_price": null
                             },
                             {
                                 "duration": 90,
                                 "deposit_tax": 0.0,
                                 "prepayment_tax": 0.0,
                                 "price": 130.0,
-                                "deposit": 0.0,
+                                "deposit": 65.0,
                                 "id": 15390966,
                                 "label": "90 min Full Body Cupping Massage",
                                 "type": "X",
                                 "combo_children": [],
                                 "staffer_id": [
-                                    992873,
-                                    992881
+                                    992873
                                 ],
                                 "prepayment": 0.0,
                                 "promotion": null,
-                                "service_price": "$130.00"
+                                "service_price": "$130.00",
+                                "omnibus_price": null
                             }
                         ],
                         "partner_app_data": {},
                         "type": "S",
                         "staffer_id": [
-                            992873,
-                            992881
+                            992873
                         ],
                         "photos": [],
                         "is_available_for_customer_booking": true,
@@ -477,11 +1047,11 @@
                                     "*"
                                 ],
                                 "is_b_listing": false,
-                                "location": "40.36254476403089,-111.74889936730521"
+                                "location": "40.36164951,-111.74894728"
                             }
                         },
                         "price": 85.0,
-                        "treatment_parent_id": 4,
+                        "treatment_parent_id": 658,
                         "name": "Cupping Massage",
                         "id": 6759010,
                         "combo_type": null,
@@ -494,7 +1064,7 @@
                         "padding_type": "",
                         "note": "",
                         "treatment": {
-                            "name": "Hot stone massage",
+                            "name": "Hot Stone Massage",
                             "id": 445
                         },
                         "description_type": "M",
@@ -508,43 +1078,42 @@
                                 "deposit_tax": 0.0,
                                 "prepayment_tax": 0.0,
                                 "price": 85.0,
-                                "deposit": 0.0,
+                                "deposit": 42.5,
                                 "id": 15391090,
                                 "label": "60 min Hot Stone Massage",
                                 "type": "X",
                                 "combo_children": [],
                                 "staffer_id": [
-                                    992873,
-                                    992881
+                                    992873
                                 ],
                                 "prepayment": 0.0,
                                 "promotion": null,
-                                "service_price": "$85.00"
+                                "service_price": "$85.00",
+                                "omnibus_price": null
                             },
                             {
                                 "duration": 90,
                                 "deposit_tax": 0.0,
                                 "prepayment_tax": 0.0,
                                 "price": 130.0,
-                                "deposit": 0.0,
+                                "deposit": 65.0,
                                 "id": 15391091,
                                 "label": "90 min Hot Stone Massage",
                                 "type": "X",
                                 "combo_children": [],
                                 "staffer_id": [
-                                    992873,
-                                    992881
+                                    992873
                                 ],
                                 "prepayment": 0.0,
                                 "promotion": null,
-                                "service_price": "$130.00"
+                                "service_price": "$130.00",
+                                "omnibus_price": null
                             }
                         ],
                         "partner_app_data": {},
                         "type": "S",
                         "staffer_id": [
-                            992873,
-                            992881
+                            992873
                         ],
                         "photos": [],
                         "is_available_for_customer_booking": true,
@@ -561,7 +1130,7 @@
                                     "*"
                                 ],
                                 "is_b_listing": false,
-                                "location": "40.36254476403089,-111.74889936730521"
+                                "location": "40.36164951,-111.74894728"
                             }
                         },
                         "price": 85.0,
@@ -589,25 +1158,24 @@
                                 "deposit_tax": 0.0,
                                 "prepayment_tax": 0.0,
                                 "price": 35.0,
-                                "deposit": 0.0,
+                                "deposit": 17.5,
                                 "id": 15391136,
                                 "label": "",
                                 "type": "X",
                                 "combo_children": [],
                                 "staffer_id": [
-                                    992873,
-                                    992881
+                                    992873
                                 ],
                                 "prepayment": 0.0,
                                 "promotion": null,
-                                "service_price": "$35.00"
+                                "service_price": "$35.00",
+                                "omnibus_price": null
                             }
                         ],
                         "partner_app_data": {},
                         "type": "X",
                         "staffer_id": [
-                            992873,
-                            992881
+                            992873
                         ],
                         "photos": [],
                         "is_available_for_customer_booking": true,
@@ -625,7 +1193,7 @@
                                     "*"
                                 ],
                                 "is_b_listing": false,
-                                "location": "40.36254476403089,-111.74889936730521"
+                                "location": "40.36164951,-111.74894728"
                             }
                         },
                         "price": 35.0,
@@ -653,43 +1221,42 @@
                                 "deposit_tax": 0.0,
                                 "prepayment_tax": 0.0,
                                 "price": 35.0,
-                                "deposit": 0.0,
+                                "deposit": 17.5,
                                 "id": 15391179,
                                 "label": "30 min Gentle Touch massage",
                                 "type": "X",
                                 "combo_children": [],
                                 "staffer_id": [
-                                    992873,
-                                    992881
+                                    992873
                                 ],
                                 "prepayment": 0.0,
                                 "promotion": null,
-                                "service_price": "$35.00"
+                                "service_price": "$35.00",
+                                "omnibus_price": null
                             },
                             {
                                 "duration": 60,
                                 "deposit_tax": 0.0,
                                 "prepayment_tax": 0.0,
                                 "price": 60.0,
-                                "deposit": 0.0,
+                                "deposit": 30.0,
                                 "id": 15391180,
                                 "label": "60 min Gentle Touch Massage",
                                 "type": "X",
                                 "combo_children": [],
                                 "staffer_id": [
-                                    992873,
-                                    992881
+                                    992873
                                 ],
                                 "prepayment": 0.0,
                                 "promotion": null,
-                                "service_price": "$60.00"
+                                "service_price": "$60.00",
+                                "omnibus_price": null
                             }
                         ],
                         "partner_app_data": {},
                         "type": "S",
                         "staffer_id": [
-                            992873,
-                            992881
+                            992873
                         ],
                         "photos": [],
                         "is_available_for_customer_booking": true,
@@ -706,7 +1273,7 @@
                                     "*"
                                 ],
                                 "is_b_listing": false,
-                                "location": "40.36254476403089,-111.74889936730521"
+                                "location": "40.36164951,-111.74894728"
                             }
                         },
                         "price": 35.0,
@@ -723,7 +1290,7 @@
                         "padding_type": "",
                         "note": "",
                         "treatment": {
-                            "name": "Prenatal massage",
+                            "name": "Prenatal Massage",
                             "id": 459
                         },
                         "description_type": "M",
@@ -737,43 +1304,42 @@
                                 "deposit_tax": 0.0,
                                 "prepayment_tax": 0.0,
                                 "price": 75.0,
-                                "deposit": 0.0,
+                                "deposit": 37.5,
                                 "id": 15394046,
                                 "label": "60 min Prenatal Massage",
                                 "type": "X",
                                 "combo_children": [],
                                 "staffer_id": [
-                                    992873,
-                                    992881
+                                    992873
                                 ],
                                 "prepayment": 0.0,
                                 "promotion": null,
-                                "service_price": "$75.00"
+                                "service_price": "$75.00",
+                                "omnibus_price": null
                             },
                             {
                                 "duration": 90,
                                 "deposit_tax": 0.0,
                                 "prepayment_tax": 0.0,
                                 "price": 115.0,
-                                "deposit": 0.0,
+                                "deposit": 57.5,
                                 "id": 15394047,
                                 "label": "90 min Prenatal Massage",
                                 "type": "X",
                                 "combo_children": [],
                                 "staffer_id": [
-                                    992873,
-                                    992881
+                                    992873
                                 ],
                                 "prepayment": 0.0,
                                 "promotion": null,
-                                "service_price": "$115.00"
+                                "service_price": "$115.00",
+                                "omnibus_price": null
                             }
                         ],
                         "partner_app_data": {},
                         "type": "S",
                         "staffer_id": [
-                            992873,
-                            992881
+                            992873
                         ],
                         "photos": [],
                         "is_available_for_customer_booking": true,
@@ -789,7 +1355,7 @@
                                     "*"
                                 ],
                                 "is_b_listing": false,
-                                "location": "40.36254476403089,-111.74889936730521"
+                                "location": "40.36164951,-111.74894728"
                             }
                         },
                         "price": 75.0,
@@ -807,31 +1373,38 @@
             }
         ],
         "booking_mode": "A",
-        "booking_policy": "Changes allowed up to 1 hours before visit",
+        "booking_policy": "Changes allowed up to 2 hours before visit",
         "phone": "(385) 312-0741",
-        "website": null,
-        "facebook_link": null,
-        "instagram_link": null,
-        "credit_cards": null,
-        "ecommerce_link": null,
-        "booking_max_modification_time": 60,
+        "website": "https://www.themindfulbodymassage.com/",
+        "facebook_link": "",
+        "instagram_link": "https://www.instagram.com/themindfulbodymassage",
+        "credit_cards": "",
+        "ecommerce_link": "",
+        "booking_max_modification_time": 120,
         "booking_max_lead_time": 129600,
-        "pos_pay_by_app_enabled": false,
+        "pos_pay_by_app_enabled": true,
         "pos_market_pay_enabled": true,
-        "deposit_cancel_time": {},
-        "deposit_policy": "",
+        "deposit_cancel_time": {
+            "days": 1
+        },
+        "deposit_policy": "This business enforces a cancellation policy on and reserves the right to charge a cancellation fee for any no-shows and late cancellations. Note that you may be considered a no-show if you are more than 15 minutes late for your scheduled appointment, and it is up to the business to decide whether the fee is applied.\n\nThe cancellation fee is only charged if you violate the terms of the cancellation policy. If you show up to the appointment on time or cancel before the deadline listed on your confirmation page, no cancellation fee is withdrawn from your account. As the fee is not charged for successful appointments, you will be expected to pay for your appointment in full once the service is completed.",
         "service_fee": 0.0,
         "parking": null,
         "wheelchair_access": null,
         "opening_hours_note": null,
         "open_hours": [
             {
-                "open_till": "13:00",
+                "open_till": "14:00",
                 "open_from": "08:00",
                 "day_of_week": 2
             },
             {
-                "open_till": "13:00",
+                "open_till": "21:15",
+                "open_from": "19:00",
+                "day_of_week": 3
+            },
+            {
+                "open_till": "14:00",
                 "open_from": "08:00",
                 "day_of_week": 4
             }
@@ -846,18 +1419,26 @@
         "salon_network": null,
         "donations_enabled": false,
         "has_online_services": false,
-        "has_online_vouchers": false,
-        "vouchers_online_sale_enabled": false,
-        "has_safety_rules": false,
+        "has_online_vouchers": true,
+        "has_safety_rules": true,
         "traveling": null,
         "is_financial_institution": false,
-        "amenities": [],
+        "amenities": [
+            {
+                "key": "parking",
+                "label": "Parking space"
+            },
+            {
+                "key": "credit_cards",
+                "label": "Credit cards accepted"
+            }
+        ],
         "printer_config": false,
         "partners": [],
         "best_of_booksy_badge": null,
         "profile_type": "normal",
         "meta": {
-            "score": 4.0,
+            "score": 8.0,
             "id": "business:1042065",
             "item_no": 0
         }
