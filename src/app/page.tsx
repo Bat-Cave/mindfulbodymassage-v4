@@ -4,15 +4,20 @@ import BooksyWidget from "~/components/BooksyWidget";
 import Cta from "~/components/CTA";
 import Ratings from "~/components/Ratings";
 import Button from "~/components/UI/Button";
+import { getRelevantInfo } from "~/utils/booksyInfo";
+import Image from "next/image";
+import logoTransparent from "../assets/logo-transparent.png";
 
-export default function Home() {
+export default async function Home() {
+  const { phone } = await getRelevantInfo();
+
   return (
     <>
       <Head>
         <title>The Mindful Body Massage</title>
       </Head>
       <section
-        className="bg-hero-image hero py-36"
+        className="bg-hero-image hero relative py-36"
         style={{ backgroundImage: `url(${heroImage.src})` }}
       >
         <div className="hero-content text-center text-white">
@@ -29,12 +34,20 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="mx-auto w-full max-w-7xl bg-white text-primary-content">
-        <div className="mx-auto px-5 py-24">
+      <section className="mx-auto flex w-full max-w-5xl gap-16 bg-white px-5 py-24 text-primary-content">
+        <div className="w-full max-w-[250px]">
+          <Image
+            src={logoTransparent}
+            alt="The Mindful Body Massage logo"
+            width={250}
+            className=""
+          />
+        </div>
+        <div className="w-full">
           <h2 className="mb-6 text-center font-gabriela text-4xl font-bold">
             Services
           </h2>
-          <p className="text-lg">
+          <p className="text-base">
             At The Mindful Body Massage, our diverse range of massage therapies,
             including Swedish, Deep Tissue, Cupping, Hot Stone, Head and Neck,
             Gentle Touch, and Prenatal Massages, are expertly designed to cater
@@ -61,7 +74,7 @@ export default function Home() {
           <Ratings />
         </div>
       </section>
-      <Cta />
+      <Cta phone={phone} />
     </>
   );
 }

@@ -26,6 +26,7 @@ const config = {
         port: "",
         pathname: "/720x400",
       },
+      { protocol: "https", hostname: "d2zdpiztbgorvt.cloudfront.net" },
     ],
   },
 };

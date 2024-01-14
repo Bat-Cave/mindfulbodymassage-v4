@@ -4,6 +4,7 @@ import reviews from "~/utils/reviews";
 import { motion, AnimatePresence, MotionConfig } from "framer-motion";
 import { useState } from "react";
 import useAutoPlay from "~/utils/hooks/useAutoPlay";
+import Link from "next/link";
 
 const Ratings = () => {
   const [currReview, setCurrReview] = useState(0);
@@ -81,12 +82,12 @@ const Ratings = () => {
           </p>
         </div>
         {/* todo: add back when I have more reviews to show */}
-        {/* <a
+        <Link
           href="/reviews"
           className="mt-3 text-sm font-medium text-primary hover:underline sm:ml-auto sm:mt-0"
         >
           Read all reviews
-        </a> */}
+        </Link>
       </div>
       <div className="gap-8 sm:grid sm:grid-cols-2">
         <MotionConfig
@@ -104,6 +105,7 @@ const Ratings = () => {
                     initial={{ width: "0" }}
                     whileInView={{ width: "100%" }}
                     transition={{ delay: 0.1 }}
+                    viewport={{ once: true }}
                   ></motion.div>
                 </div>
                 <span className="text-sm font-medium text-gray-500">5/5</span>
@@ -120,6 +122,7 @@ const Ratings = () => {
                     initial={{ width: "0" }}
                     whileInView={{ width: "100%" }}
                     transition={{ delay: 0.2 }}
+                    viewport={{ once: true }}
                   ></motion.div>
                 </div>
                 <span className="text-sm font-medium text-gray-500">5/5</span>
@@ -136,6 +139,7 @@ const Ratings = () => {
                     initial={{ width: "0" }}
                     whileInView={{ width: "100%" }}
                     transition={{ delay: 0.3 }}
+                    viewport={{ once: true }}
                   ></motion.div>
                 </div>
                 <span className="text-sm font-medium text-gray-500">5/5</span>
@@ -152,6 +156,7 @@ const Ratings = () => {
                     initial={{ width: "0" }}
                     whileInView={{ width: "100%" }}
                     transition={{ delay: 0.4 }}
+                    viewport={{ once: true }}
                   ></motion.div>
                 </div>
                 <span className="text-sm font-medium text-gray-500">5/5</span>
@@ -168,6 +173,7 @@ const Ratings = () => {
                     initial={{ width: "0" }}
                     whileInView={{ width: "100%" }}
                     transition={{ delay: 0.5 }}
+                    viewport={{ once: true }}
                   ></motion.div>
                 </div>
                 <span className="text-sm font-medium text-gray-500">5/5</span>

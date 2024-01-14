@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { getRelevantInfo } from "~/utils/booksyInfo";
+import type { ProductType } from "~/utils/booksyInfo";
 import Button from "./UI/Button";
 import purpleFlowerGradient from "../assets/marek-piwnicki-QXgP8oIRMuY-unsplash.jpg";
 import ferns from "../assets/eugene-golovesov-moO8IJuBjaw-unsplash.jpg";
@@ -15,9 +15,6 @@ import Counter from "./Counter";
 import { twMerge } from "tailwind-merge";
 import Modal from "./UI/Modal";
 
-const { services } = getRelevantInfo();
-const service = services?.[0];
-
 const productImageMap = {
   "6761872": purpleFlowerGradient,
   "6758613": ferns,
@@ -28,7 +25,7 @@ const productImageMap = {
   "6759213": handFlowers,
 };
 
-const ProductCard: React.FC<{ product: typeof service }> = ({ product }) => {
+const ProductCard: React.FC<{ product: ProductType }> = ({ product }) => {
   const { id, name, description, variants } = product ?? {};
 
   const [selectedVariant, setSelectedVariant] = useState<number>(
@@ -38,7 +35,11 @@ const ProductCard: React.FC<{ product: typeof service }> = ({ product }) => {
     <div className="h-full rounded-lg bg-white">
       <div className="relative flex h-auto w-full items-end">
         <Image
-          src={productImageMap[(id ?? "") as keyof typeof productImageMap]}
+          src={
+            productImageMap[
+              (id ?? "") as unknown as keyof typeof productImageMap
+            ]
+          }
           className="mb-3 h-[225px] w-full rounded-xl object-cover"
           alt=""
           width={375}

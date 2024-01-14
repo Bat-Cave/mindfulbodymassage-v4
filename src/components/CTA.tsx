@@ -3,14 +3,12 @@
 import Link from "next/link";
 import React from "react";
 import BooksyWidget from "./BooksyWidget";
-import { getRelevantInfo } from "~/utils/booksyInfo";
 import { buttonVariants } from "./UI/Button";
 
-const Cta = () => {
-  const { phone } = getRelevantInfo();
+const Cta = ({ phone }: { phone: string }) => {
   return (
     <>
-      <section className="mx-auto w-full max-w-7xl lg:py-[120px]">
+      <section className="mx-auto w-full max-w-7xl lg:pt-[120px]">
         <div
           className={`relative z-10 overflow-hidden bg-primary-content px-3 py-12 sm:px-8 md:p-[70px]`}
         >
