@@ -1,5 +1,6 @@
 import BooksyWidget from "~/components/BooksyWidget";
 import ProductCard from "~/components/ProductCard";
+import type { ProductType } from "~/utils/booksyInfo";
 import { getBooksyInfo, getRelevantInfo } from "~/utils/booksyInfo";
 
 const Services = async () => {
@@ -19,7 +20,12 @@ const Services = async () => {
           </p>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {services?.map((service) => {
-              return <ProductCard key={service.id} product={service} />;
+              return (
+                <ProductCard
+                  key={service.id}
+                  product={service as object as ProductType}
+                />
+              );
             })}
           </div>
         </div>
