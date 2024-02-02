@@ -27,7 +27,7 @@ export default async function Home() {
             </h1>
             <h2 className="my-auto mb-5 max-w-lg text-left text-xl sm:text-center md:text-3xl">
               A place where the power of massage is combined with other
-              alternative healing modalitis to give you the best experience in
+              alternative healing modalities to give you the best experience in
               your healing journey.
             </h2>
             <BooksyWidget />
