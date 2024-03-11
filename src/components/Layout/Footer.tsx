@@ -39,7 +39,7 @@ const Footer = () => {
           </a> */}
           <a
             href="https://www.instagram.com/themindfulbodymassage"
-            className="ml-3 text-neutral-content"
+            className="ml-3 text-white"
             aria-label="The Mindful Body Massage Instagram Profile"
           >
             <svg
