@@ -46,22 +46,22 @@ export default function Component() {
               regularly. I choose to be a “forever student”, so I can
               continually improve and better myself and my practice. I take
               pride in every massage I do and tailor each massage to my
-              individual clients' needs. This ensures that every time my clients
-              come in, they are getting the best care I can give. Having good
-              communication with my clients is key to giving and receiving a
-              great massage. When my clients come to see me, I always make sure
-              to thoroughly gather the information I need to give the best
+              individual clients&apos; needs. This ensures that every time my
+              clients come in, they are getting the best care I can give. Having
+              good communication with my clients is key to giving and receiving
+              a great massage. When my clients come to see me, I always make
+              sure to thoroughly gather the information I need to give the best
               massage I can.
             </p>
             <p>
               I am trained in multiple modalities and love to incorporate all
               the different modalities I have learned into my massages to create
-              a unique massage experience. In addition to using the skills I've
-              acquired in my various trainings, I incorporate guided breathing
-              into my massages to help release and relax the muscles as I work
-              them. I am passionate about the healing benefits of massage
-              therapy and love having the ability to give those benefits of
-              massages to others.
+              a unique massage experience. In addition to using the skills
+              I&apos;ve acquired in my various trainings, I incorporate guided
+              breathing into my massages to help release and relax the muscles
+              as I work them. I am passionate about the healing benefits of
+              massage therapy and love having the ability to give those benefits
+              of massages to others.
             </p>
             <p>
               I am committed to always creating a safe, comfortable environment
