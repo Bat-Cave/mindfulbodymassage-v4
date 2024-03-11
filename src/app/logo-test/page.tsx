@@ -1,6 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
 import MeditateLogo from "~/components/MeditateLogo";
 
 const LogoTest = () => {
