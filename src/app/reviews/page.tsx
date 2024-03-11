@@ -25,7 +25,9 @@ const Reviews = async () => {
               rel="noopener"
               className="flex items-center gap-2 rounded-lg border-2 border-primary px-4 py-2 shadow-xl"
             >
-              <span className="text-lg font-bold">{googleReviews.rating}</span>{" "}
+              <span className="text-lg font-bold">
+                {googleReviews?.rating || 5}
+              </span>{" "}
               stars on{" "}
               <Image
                 src="https://lh3.googleusercontent.com/d_S5gxu_S1P6NR1gXeMthZeBzkrQMHdI5uvXrpn3nfJuXpCjlqhLQKH_hbOxTHxFhp5WugVOEcl4WDrv9rmKBDOMExhKU5KmmLFQVg"
