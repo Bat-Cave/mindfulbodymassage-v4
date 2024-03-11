@@ -1,11 +1,11 @@
 import Head from "next/head";
-import heroImage from "../assets/home-hero.jpg";
+import Image from "next/image";
 import BooksyWidget from "~/components/BooksyWidget";
 import Cta from "~/components/CTA";
 import Ratings from "~/components/Ratings";
 import Button from "~/components/UI/Button";
 import { getRelevantInfo } from "~/utils/booksyInfo";
-import Image from "next/image";
+import heroImage from "../assets/home-hero.jpg";
 import logoTransparent from "../assets/logo-transparent.png";
 
 export default async function Home() {
@@ -44,7 +44,7 @@ export default async function Home() {
           />
         </div>
         <div className="w-full">
-          <h2 className="mb-6 text-center font-gabriela text-4xl font-bold">
+          <h2 className="sr-only mb-6 hidden text-center font-gabriela text-4xl font-bold">
             Services
           </h2>
           <p className="text-base">
