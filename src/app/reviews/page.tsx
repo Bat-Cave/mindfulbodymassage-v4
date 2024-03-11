@@ -161,7 +161,7 @@ const Reviews = async () => {
                   </div>
                 );
               })}
-            {googleReviews.reviews.map((review) => {
+            {googleReviews?.reviews?.map((review) => {
               return (
                 <div
                   key={review.text}
