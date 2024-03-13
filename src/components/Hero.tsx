@@ -6,6 +6,7 @@ import heroImageMobile from "../assets/home-hero-mobile.jpg";
 import heroImage from "../assets/home-hero.jpg";
 import logo from "../assets/logo.png";
 
+import { motion } from "framer-motion";
 export default function Hero() {
   const imageMultiplier = 5;
 
@@ -17,7 +18,13 @@ export default function Hero() {
           className="relative flex items-center justify-end bg-cover px-9"
           style={{ backgroundImage: `url(${heroImage.src})` }}
         >
-          <div className="w-1/2 text-center text-primary-content">
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-20%" }}
+            transition={{ duration: 0.7 }}
+            className="w-1/2 text-center text-primary-content"
+          >
             <div className="flex flex-col items-center rounded-3xl py-4 md:py-12">
               <h1 className="mb-5 text-left font-gabriela text-3xl font-bold sm:text-center lg:text-6xl">
                 Welcome to Healing
@@ -28,7 +35,7 @@ export default function Hero() {
                 in your healing journey.
               </h2>
             </div>
-          </div>
+          </motion.div>
           <Image
             className="absolute bottom-4 right-4"
             src={logo.src}
@@ -43,7 +50,13 @@ export default function Hero() {
           className="relative flex h-[80vh] w-full grow items-start justify-center bg-cover bg-bottom px-8 py-6"
           style={{ backgroundImage: `url(${heroImageMobile.src})` }}
         >
-          <div className="w-full text-center text-primary-content">
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-20%" }}
+            transition={{ duration: 0.7 }}
+            className="w-full text-center text-primary-content"
+          >
             <div className="flex flex-col items-center rounded-3xl py-4 md:py-12">
               <h1 className="mb-5 text-center font-gabriela text-4xl font-bold sm:text-center lg:text-6xl">
                 Welcome to Healing
@@ -54,7 +67,7 @@ export default function Hero() {
                 in your healing journey.
               </h2>
             </div>
-          </div>
+          </motion.div>
           <Image
             className="absolute bottom-4 right-4"
             src={logo.src}

@@ -26,15 +26,13 @@ export default function Services() {
           Services
         </h2>
         <p className="text-base">
-          At The Mindful Body Massage, our diverse range of massage therapies,
-          including Swedish, Deep Tissue, Cupping, Hot Stone, Head and Neck,
-          Gentle Touch, and Prenatal Massages, are expertly designed to cater to
-          your specific needs. Whether you seek relaxation, stress relief, pain
-          reduction, or prenatal care, we are dedicated to providing you with
-          tailored treatments that promote overall well-being. Experience
-          improved circulation, relief from muscle tension, enhanced relaxation,
-          and a rejuvenated sense of self. Trust us to deliver the therapeutic
-          benefits you deserve.
+          At The Mindful Body Massage, our diverse range of massage therapies
+          are expertly designed to cater to your specific needs. Whether you
+          seek relaxation, stress relief, pain reduction, or prenatal care, we
+          are dedicated to providing you with tailored treatments that promotes
+          overall well-being. Experience improved circulation, relief from
+          muscle tension, enhanced relaxation, and a rejuvenated sense of self.
+          Trust us to deliver the therapeutic benefits you deserve.
         </p>
         <div className="my-6 flex flex-col items-center justify-center">
           <Button href="/services">Our Services</Button>
