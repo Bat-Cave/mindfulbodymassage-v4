@@ -11,6 +11,7 @@
   "dependencies": {
     "@clerk/nextjs": "^4.23.0",
     "@prisma/client": "^5.0.0",
+    "@radix-ui/react-aspect-ratio": "^1.0.3",
     "@radix-ui/react-dialog": "^1.0.4",
     "@react-aria/focus": "^3.14.0",
     "@t3-oss/env-nextjs": "^0.3.1",

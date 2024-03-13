@@ -1,26 +1,16 @@
-"use client";
-
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { twMerge } from "tailwind-merge";
-import useScrollAmount from "~/utils/hooks/useScrollAmount";
 import Logo from "../Logo";
 
 const Nav = () => {
-  const location = usePathname();
-
-  const scrollAmount = useScrollAmount();
-  const solidNav = scrollAmount > 200 || location !== "/";
-
   return (
     <nav
       className={twMerge(
-        "fixed top-0 z-10 w-full p-1 transition-colors",
-        solidNav && "bg-primary"
+        "fixed top-0 z-10 w-full bg-primary p-1 transition-colors"
       )}
     >
       <div
-        className={`navbar w-full rounded-md border-2 border-transparent px-2 transition-all duration-300 md:px-16`}
+        className={`navbar mx-auto w-full max-w-[1920px] rounded-md border-2 border-transparent px-2 transition-all duration-300 md:px-16`}
       >
         <Logo
           width={36}
