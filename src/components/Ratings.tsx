@@ -1,10 +1,10 @@
 "use client";
 
-import reviews from "~/utils/reviews";
-import { motion, AnimatePresence, MotionConfig } from "framer-motion";
+import { AnimatePresence, MotionConfig, motion } from "framer-motion";
+import Link from "next/link";
 import { useState } from "react";
 import useAutoPlay from "~/utils/hooks/useAutoPlay";
-import Link from "next/link";
+import reviews from "~/utils/reviews";
 
 const Ratings = () => {
   const [currReview, setCurrReview] = useState(0);
@@ -184,7 +184,7 @@ const Ratings = () => {
         <div ref={ref} className="overflow-hidden">
           <AnimatePresence mode="popLayout">
             <motion.div
-              key={reviews[currReview]}
+              key={currReview}
               className="flex h-full min-h-[33vh] w-full items-center justify-center p-4 text-center font-gabriela text-lg sm:min-h-0 sm:p-12"
               initial={{ opacity: 0, x: 100 }}
               animate={{ opacity: 1, x: 0 }}

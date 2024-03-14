@@ -25,7 +25,7 @@ export default function Services() {
         <h2 className="sr-only mb-6 hidden text-center font-gabriela text-4xl font-bold">
           Services
         </h2>
-        <p className="text-base">
+        <p className="text-base font-semibold md:text-lg">
           At The Mindful Body Massage, our diverse range of massage therapies
           are expertly designed to cater to your specific needs. Whether you
           seek relaxation, stress relief, pain reduction, or prenatal care, we

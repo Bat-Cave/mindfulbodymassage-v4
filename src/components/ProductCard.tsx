@@ -1,28 +1,28 @@
 "use client";
 
-import { useState } from "react";
-import type { ProductType } from "~/utils/booksyInfo";
-import Button from "./UI/Button";
-import purpleFlowerGradient from "../assets/marek-piwnicki-QXgP8oIRMuY-unsplash.jpg";
-import ferns from "../assets/eugene-golovesov-moO8IJuBjaw-unsplash.jpg";
-import oceanGradient from "../assets/harli-marten-n7a2OJDSZns-unsplash.jpg";
-import rubberLeaves from "../assets/justin-schwartfigure-e_Nq5WzZOqs-unsplash.jpg";
-import canyonGradient from "../assets/kevin-lanceplaine-sO-JmQj95ec-unsplash.jpg";
-import swampLeaves from "../assets/kira-laktionov-O--w1YENoeU-unsplash.jpg";
-import handFlowers from "../assets/roberta-sorge-UvVVnUmW2mQ-unsplash.jpg";
 import Image from "next/image";
-import Counter from "./Counter";
+import { useState } from "react";
 import { twMerge } from "tailwind-merge";
+import type { ProductType } from "~/utils/booksyInfo";
+import cupping from "../assets/cupping-massage.jpg";
+import deepTissue from "../assets/deep-tissue.jpg";
+import gentleTouch from "../assets/gentle-touch.jpg";
+import headNeck from "../assets/head-neck.jpg";
+import hotStone from "../assets/hot-stone.jpg";
+import prenatal from "../assets/prenatal.jpg";
+import swedish from "../assets/swedish-massage.jpg";
+import Counter from "./Counter";
+import Button from "./UI/Button";
 import Modal from "./UI/Modal";
 
 const productImageMap = {
-  "6761872": purpleFlowerGradient,
-  "6758613": ferns,
-  "6758703": canyonGradient,
-  "6759010": rubberLeaves,
-  "6759129": oceanGradient,
-  "6759172": swampLeaves,
-  "6759213": handFlowers,
+  "6761872": prenatal,
+  "6758613": swedish,
+  "6758703": deepTissue,
+  "6759010": cupping,
+  "6759129": hotStone,
+  "6759172": headNeck,
+  "6759213": gentleTouch,
 };
 
 const ProductCard: React.FC<{ product: ProductType }> = ({ product }) => {
@@ -40,7 +40,7 @@ const ProductCard: React.FC<{ product: ProductType }> = ({ product }) => {
               (id ?? "") as unknown as keyof typeof productImageMap
             ]
           }
-          className="mb-3 h-[225px] w-full rounded-xl object-cover"
+          className="mb-3 h-[225px] w-full rounded-xl object-cover shadow-lg"
           alt=""
           width={375}
           height={250}
@@ -53,6 +53,7 @@ const ProductCard: React.FC<{ product: ProductType }> = ({ product }) => {
           <Modal.Button>
             <Button variant="solid" size="small">
               Read More
+              <span className="sr-only">about the {name}</span>
             </Button>
           </Modal.Button>
           <Modal.Content autoFocus={false}>

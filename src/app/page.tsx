@@ -1,4 +1,4 @@
-import Head from "next/head";
+import type { Metadata } from "next";
 import Cta from "~/components/CTA";
 import Header from "~/components/Header";
 import Hero from "~/components/Hero";
@@ -12,9 +12,6 @@ export default async function Home() {
 
   return (
     <>
-      <Head>
-        <title>The Mindful Body Massage</title>
-      </Head>
       <Header />
       <Hero />
       <Services />
@@ -30,3 +27,10 @@ export default async function Home() {
     </>
   );
 }
+
+export const metadata: Metadata = {
+  title: "The Mindful Body Massage",
+  description: `A place where the power of massage is combined with other
+  alternative healing modalities to give you the best experience
+  in your healing journey.`,
+};

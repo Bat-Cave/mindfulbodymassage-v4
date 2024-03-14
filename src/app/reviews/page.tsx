@@ -270,4 +270,9 @@ const Reviews = async () => {
   );
 };
 
+export const metadata = {
+  title: "Reviews | The Mindful Body Massage",
+  description: `5/5 stars on Google and Booksy. Read others experiences with The Mindful Body Massage.`,
+};
+
 export default Reviews;

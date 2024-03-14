@@ -10,10 +10,10 @@ const Services = async () => {
     <>
       <section className="mx-auto w-full max-w-7xl bg-white py-9 text-primary-content">
         <div className="mx-auto px-5 py-24">
-          <h2 className="mb-6 text-center font-gabriela text-4xl font-bold">
+          <h2 className="prose mb-6 text-center font-gabriela text-4xl font-bold">
             Services
           </h2>
-          <p className="text-lg">
+          <p className="mx-auto max-w-3xl text-justify text-base font-semibold md:text-lg">
             At The Mindful Body Massage, our diverse range of massage therapies
             are expertly designed to cater to your specific needs. Whether you
             seek relaxation, stress relief, pain reduction, or prenatal care, we
@@ -42,6 +42,17 @@ const Services = async () => {
       </section>
     </>
   );
+};
+
+export const metadata = {
+  title: "Services | The Mindful Body Massage",
+  description: `At The Mindful Body Massage, our diverse range of massage therapies
+  are expertly designed to cater to your specific needs. Whether you
+  seek relaxation, stress relief, pain reduction, or prenatal care, we
+  are dedicated to providing you with tailored treatments that
+  promotes overall well-being. Experience improved circulation, relief
+  from muscle tension, enhanced relaxation, and a rejuvenated sense of
+  self. Trust us to deliver the therapeutic benefits you deserve.`,
 };
 
 export default Services;
