@@ -5,7 +5,6 @@ import Hero from "~/components/Hero";
 import Ratings from "~/components/Ratings";
 import Services from "~/components/Services";
 import { getRelevantInfo } from "~/utils/booksyInfo";
-import "./test.css";
 
 export default async function Home() {
   const { phone } = await getRelevantInfo();

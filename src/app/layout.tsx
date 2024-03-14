@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="!scroll-smooth">
       <head>
         <link
           rel="apple-touch-icon"
@@ -93,7 +93,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#ffffff" />
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body>
+      <body className="bg-white">
         <Layout>{children}</Layout>
         <SpeedInsights />
         <Analytics />
