@@ -26,7 +26,7 @@ const Services = async () => {
         <p className="my-6 text-center text-2xl font-semibold">
           Massages starting at $35
         </p>
-        <PageSection className="grid max-w-none grid-cols-1 gap-8 px-4 sm:grid-cols-2 lg:grid-cols-3">
+        <section className="mx-auto grid w-full scroll-m-20 grid-cols-1 gap-8 px-4 font-semibold sm:grid-cols-2 lg:grid-cols-3">
           {services?.map((service) => {
             return (
               <ProductCard
@@ -35,7 +35,7 @@ const Services = async () => {
               />
             );
           })}
-        </PageSection>
+        </section>
         <div className="flex justify-center">
           <BooksyWidget />
         </div>
