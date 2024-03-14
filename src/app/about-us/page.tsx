@@ -1,13 +1,12 @@
 import Image from "next/image";
-import PageSection from "~/components/PageSection";
 import PageTitle from "~/components/PageTitle";
 import profilepic from "../../assets/Nicole.jpeg";
 
 export default function Component() {
   return (
-    <div className="w-full py-24 xl:py-32">
+    <div className="w-full py-24">
       <PageTitle>About Us</PageTitle>
-      <PageSection className="container mx-auto grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2">
+      <section className="container mx-auto grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2">
         <div className="relative flex justify-center self-start lg:sticky lg:top-32">
           <div className="overflow-hidden rounded-full border-4 border-primary shadow-xl">
             <Image
@@ -72,7 +71,7 @@ export default function Component() {
             </p>
           </div>
         </div>
-      </PageSection>
+      </section>
     </div>
   );
 }

@@ -6,7 +6,7 @@ import PageTitle from "~/components/PageTitle";
 
 export default function Component() {
   return (
-    <div className="flex w-full flex-col items-center gap-12 pt-24 xl:pt-32">
+    <div className="flex w-full flex-col items-center gap-12 pt-24">
       <PageTitle>Partner with The Mindful Body Massage!</PageTitle>
       <PageSection className="px-4 text-lg md:px-6">
         <p>
