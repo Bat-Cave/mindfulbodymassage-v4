@@ -56,7 +56,7 @@ const ProductCard: React.FC<{ product: ProductType }> = ({ product }) => {
               <span className="sr-only">about the {name}</span>
             </Button>
           </Modal.Button>
-          <Modal.Content autoFocus={false}>
+          <Modal.Content>
             <h3 className="font-gabriela text-2xl font-bold">{name}</h3>
             <p className="mt-4">{description}</p>
             <hr className="my-3 border-primary" />
