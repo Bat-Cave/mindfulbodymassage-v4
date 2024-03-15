@@ -36,7 +36,7 @@ const Services = async () => {
             );
           })}
         </section>
-        <div className="flex justify-center">
+        <div className="mt-16 flex justify-center">
           <BooksyWidget />
         </div>
       </section>

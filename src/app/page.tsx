@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Cta from "~/components/CTA";
 import Header from "~/components/Header";
 import Hero from "~/components/Hero";
+import PartnerWithUs from "~/components/PartnerWithUs";
 import Ratings from "~/components/Ratings";
 import Services from "~/components/Services";
 import { getRelevantInfo } from "~/utils/booksyInfo";
@@ -14,11 +15,12 @@ export default async function Home() {
       <Header />
       <Hero />
       <Services />
+      <PartnerWithUs />
       <section className="mx-auto w-full max-w-7xl bg-white text-primary-content">
         <div className="mx-auto px-5 py-24">
-          <h2 className="mb-6 text-center font-gabriela text-4xl font-bold">
+          <h3 className="mb-6 text-center font-gabriela text-4xl font-bold">
             Reviews
-          </h2>
+          </h3>
           <Ratings />
         </div>
       </section>

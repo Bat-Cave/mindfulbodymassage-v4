@@ -48,6 +48,9 @@ const ProductCard: React.FC<{ product: ProductType }> = ({ product }) => {
       </div>
       <div>
         <h3 className="font-gabriela text-2xl font-bold">{name}</h3>
+        <span className="text-sm text-primary-content/80">
+          {variants.length > 1 ? "Starting at " : ""}${variants?.[0]?.price}
+        </span>
         <p className="my-4 line-clamp-3">{description}</p>
         <Modal>
           <Modal.Button>

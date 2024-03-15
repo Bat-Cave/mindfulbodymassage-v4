@@ -1,15 +1,11 @@
 "use client";
 
 import * as AspectRatio from "@radix-ui/react-aspect-ratio";
-import Image from "next/image";
 import heroImageMobile from "../assets/home-hero-mobile.jpg";
 import heroImage from "../assets/home-hero.jpg";
-import logo from "../assets/logo.png";
 
 import { motion } from "framer-motion";
 export default function Hero() {
-  const imageMultiplier = 5;
-
   return (
     <>
       <div className="mx-auto hidden w-full max-w-[1920px] md:block">
@@ -36,13 +32,6 @@ export default function Hero() {
               </h2>
             </div>
           </motion.div>
-          <Image
-            className="absolute bottom-4 right-4"
-            src={logo.src}
-            alt="The Mindful Body Massage Logo"
-            width={16 * imageMultiplier}
-            height={19 * imageMultiplier}
-          />
         </AspectRatio.Root>
       </div>
       <div className="flex overflow-hidden md:hidden">
@@ -68,13 +57,6 @@ export default function Hero() {
               </h2>
             </div>
           </motion.div>
-          <Image
-            className="absolute bottom-4 right-4"
-            src={logo.src}
-            alt="The Mindful Body Massage Logo"
-            width={16 * imageMultiplier}
-            height={19 * imageMultiplier}
-          />
         </div>
       </div>
     </>
