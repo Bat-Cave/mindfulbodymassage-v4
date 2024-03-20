@@ -9,7 +9,7 @@ const PageTitle = ({
   return (
     <h1
       className={cn(
-        "mb-12 text-center font-gabriela text-3xl font-bold md:text-4xl",
+        "mb-6 px-4 text-center font-gabriela text-3xl font-bold md:text-4xl",
         className
       )}
       {...props}
