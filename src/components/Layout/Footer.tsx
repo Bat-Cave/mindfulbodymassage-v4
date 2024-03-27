@@ -9,7 +9,7 @@ const Footer = () => {
             The Mindful Body Massage
           </span>
         </a>
-        <p className="mt-4 text-sm text-white sm:ml-4 sm:mt-0 sm:border-l-2 sm:border-neutral-focus sm:py-2 sm:pl-4">
+        <p className="mt-4 text-sm text-white sm:ml-4 sm:mt-0 sm:border-l-2 sm:border-primary sm:py-2 sm:pl-4">
           © 2024 Mindful Body Massage
         </p>
         <span className="mt-4 inline-flex justify-center sm:ml-auto sm:mt-0 sm:justify-start">

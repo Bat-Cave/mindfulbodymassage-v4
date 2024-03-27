@@ -1,156 +1,141 @@
 "use client";
 
+import { AnimatePresence, motion } from "framer-motion";
+import { Menu } from "iconoir-react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
 import { twMerge } from "tailwind-merge";
-import useScrollAmount from "~/utils/hooks/useScrollAmount";
 import Logo from "../Logo";
+import Button from "../UI/Button";
+import {
+  Drawer,
+  DrawerClose,
+  DrawerContent,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerTitle,
+  DrawerTrigger,
+} from "../UI/drawer";
+
+const links = [
+  { label: "Services", link: "/services" },
+  { label: "Reviews", link: "/reviews" },
+  { label: "Partner", link: "/partner" },
+  { label: "About Us", link: "/about-us" },
+];
 
 const Nav = () => {
-  const location = usePathname();
-
-  const scrollAmount = useScrollAmount();
-  const solidNav = scrollAmount > 200 || location !== "/";
+  const [activeLink, setActiveLink] = useState<null | string>(null);
+  const [drawerOpen, setDrawerOpen] = useState(false);
+  const router = useRouter();
 
   return (
     <nav
       className={twMerge(
-        "fixed top-0 z-10 w-full p-1 transition-colors",
-        solidNav && "bg-primary"
+        "fixed top-0 z-10 w-full bg-primary transition-colors"
       )}
     >
       <div
-        className={`navbar w-full rounded-md border-2 border-transparent px-2 transition-all duration-300 md:px-16`}
+        className={`navbar mx-auto w-full max-w-[1920px] rounded-md border-2 border-transparent px-2 transition-all duration-300 lg:px-16`}
       >
-        <Logo
-          width={36}
-          height={36}
-          className="strokeWhite h-9 w-9 shrink-0 fill-white text-white sm:mr-2 sm:h-6 sm:w-6"
-        />
-        <Link
-          href="/"
-          className={`hidden shrink-0 items-center justify-center font-gabriela text-xl font-bold normal-case text-white sm:block`}
-        >
-          The Mindful Body Massage
+        <Link href="/">
+          <Logo
+            width={36}
+            height={36}
+            className="strokeWhite h-9 w-9 shrink-0 fill-white text-white sm:mr-2 sm:h-6 sm:w-6"
+          />
+          <p
+            className={`hidden shrink-0 items-center justify-center font-gabriela text-xl font-bold normal-case text-white sm:block`}
+          >
+            The Mindful Body Massage
+          </p>
         </Link>
-        <div className="flex w-full items-center justify-end gap-2">
-          <Link
-            href="/services"
-            className={`flex items-center justify-center gap-2 px-2 text-base normal-case text-white md:px-8 md:text-xl`}
-          >
-            <svg
-              width="24px"
-              height="24px"
-              viewBox="0 0 24 24"
-              strokeWidth="1.5"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              color="currentColor"
-            >
-              <path
-                d="M9 18s.9-3.741 3-6M16.186 7.241l.374 3.89c.243 2.523-1.649 4.77-4.172 5.012-2.475.238-4.718-1.571-4.956-4.047a4.503 4.503 0 014.05-4.914l4.147-.4a.51.51 0 01.557.46z"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              ></path>
-              <path
-                d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              ></path>
-            </svg>
-            Services
-          </Link>
-
-          <Link
-            href="/reviews"
-            className={`flex items-center justify-center gap-2 px-2 text-base normal-case text-white md:px-8 md:text-xl`}
-          >
-            <svg
-              width="24px"
-              height="24px"
-              viewBox="0 0 24 24"
-              strokeWidth="1.5"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              color="currentColor"
-            >
-              <g clipPath="url(#clip0_3057_14628)">
-                <path
-                  d="M9.95242 9.62272L11.5109 6.31816C11.711 5.89395 12.289 5.89395 12.4891 6.31816L14.0476 9.62272L17.5329 10.1559C17.9801 10.2243 18.1583 10.7996 17.8346 11.1296L15.313 13.7001L15.9081 17.3314C15.9845 17.7978 15.5168 18.1534 15.1167 17.9331L12 16.2177L8.88328 17.9331C8.48316 18.1534 8.01545 17.7978 8.09187 17.3314L8.68695 13.7001L6.16545 11.1296C5.8417 10.7996 6.01993 10.2243 6.46711 10.1559L9.95242 9.62272Z"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                ></path>
-                <path
-                  d="M22 12L23 12"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                ></path>
-                <path
-                  d="M12 2V1"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                ></path>
-                <path
-                  d="M12 23V22"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                ></path>
-                <path
-                  d="M20 20L19 19"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                ></path>
-                <path
-                  d="M20 4L19 5"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                ></path>
-                <path
-                  d="M4 20L5 19"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                ></path>
-                <path
-                  d="M4 4L5 5"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                ></path>
-                <path
-                  d="M1 12L2 12"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                ></path>
-              </g>
-              <defs>
-                <clipPath id="clip0_3057_14628">
-                  <rect width="24" height="24" fill="white"></rect>
-                </clipPath>
-              </defs>
-            </svg>
-            Reviews
-          </Link>
+        <div className="flex w-full items-center justify-end">
+          <div className="hidden w-full items-center justify-end md:flex">
+            {links.map((link) => (
+              <div
+                key={link.link}
+                className="relative px-2 sm:px-4"
+                onMouseEnter={() => setActiveLink(link.link)}
+                onMouseLeave={() => setActiveLink(null)}
+              >
+                <Link
+                  href={link.link}
+                  className={`flex items-center justify-center gap-2 text-base normal-case text-white md:text-lg`}
+                >
+                  {link.label}
+                </Link>
+                <AnimatePresence>
+                  {activeLink === link.link && (
+                    <motion.div
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      exit={{ opacity: 0 }}
+                      layout
+                      layoutId="nav-link"
+                      className="absolute -bottom-[1px] left-2 right-2 top-full bg-white sm:left-4 sm:right-4"
+                    ></motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+            ))}
+          </div>
+          <div className="flex md:hidden">
+            <Drawer open={drawerOpen} onOpenChange={setDrawerOpen}>
+              <DrawerTrigger onClick={() => setDrawerOpen(false)}>
+                <Menu className="text-white" />
+              </DrawerTrigger>
+              <DrawerContent>
+                <DrawerHeader>
+                  <DrawerTitle>
+                    <Button
+                      variant="text"
+                      onClick={() => {
+                        router.push("/");
+                        setDrawerOpen(false);
+                      }}
+                      className="mx-auto flex items-center justify-center gap-2"
+                    >
+                      <Logo
+                        width={36}
+                        height={36}
+                        className="strokeWhite h-6 w-6 shrink-0 fill-primary text-primary sm:mr-2 sm:h-9 sm:w-9"
+                      />
+                      <p
+                        className={`shrink-0 items-center justify-center font-gabriela text-base font-bold normal-case text-primary sm:block sm:text-xl`}
+                      >
+                        The Mindful Body Massage
+                      </p>
+                    </Button>
+                  </DrawerTitle>
+                </DrawerHeader>
+                <div className="flex w-full flex-col items-start gap-2 px-5">
+                  {links.map((link) => (
+                    <div key={link.link} className="relative px-2 sm:px-4">
+                      <Button
+                        variant="text"
+                        onClick={() => {
+                          router.push(link.link);
+                          setDrawerOpen(false);
+                        }}
+                        className={`flex items-center justify-center gap-2 py-1 text-base font-semibold normal-case text-primary underline md:text-lg`}
+                      >
+                        {link.label}
+                      </Button>
+                    </div>
+                  ))}
+                </div>
+                <DrawerFooter className="flex-row justify-center">
+                  <DrawerClose>
+                    <Button size="small" variant="text">
+                      Close
+                    </Button>
+                  </DrawerClose>
+                </DrawerFooter>
+              </DrawerContent>
+            </Drawer>
+          </div>
         </div>
       </div>
     </nav>

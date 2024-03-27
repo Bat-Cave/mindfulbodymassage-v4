@@ -1,25 +1,24 @@
 import Image from "next/image";
+import PageTitle from "~/components/PageTitle";
 import profilepic from "../../assets/Nicole.jpeg";
 
 export default function Component() {
   return (
-    <div className="w-full py-24 xl:py-32">
-      <h1 className="mb-24 mt-6 text-center font-gabriela text-4xl font-bold">
-        About Us
-      </h1>
-      <div className="container mx-auto grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2">
-        <div className="sticky top-32 flex justify-center self-start">
-          <div className="overflow-hidden rounded-full">
+    <div className="w-full py-24">
+      <PageTitle>About Us</PageTitle>
+      <section className="container mx-auto grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2">
+        <div className="relative flex justify-center self-start lg:sticky lg:top-32">
+          <div className="overflow-hidden rounded-full border-4 border-primary shadow-xl">
             <Image
               alt="Image"
               className="aspect-square scale-105 object-cover"
-              height="300"
+              height="400"
               src={profilepic.src}
-              width="300"
+              width="400"
             />
           </div>
         </div>
-        <div className="relative space-y-4">
+        <div className="relative space-y-4 bg-white">
           <div className="sticky top-[72px] space-y-2 bg-white py-2">
             <h1 className="text-3xl font-bold">Nicole Cutchins</h1>
             <p className="text-gray-500 dark:text-gray-400">LMT and Owner</p>
@@ -72,7 +71,16 @@ export default function Component() {
             </p>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 }
+
+export const metadata = {
+  title: "About Us | Nicole Cutchins",
+  description: `Hi! I am Nicole Cutchins, LMT (Licensed Massage Therapist) and the
+  owner of The Mindful Body Massage. I graduated from my massage
+  therapy apprenticeship at Orem Center for Massage in December of
+  2021, and have been working on building The Mindful Body Massage
+  ever since.`,
+};

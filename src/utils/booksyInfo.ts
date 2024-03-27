@@ -1,6 +1,5 @@
 import booksyInfo from "./booksyInfo.json";
 
-// MOVE to  ENV
 const url =
   "https://us.booksy.com/api/us/2/customer_api/businesses/1042065/?with_combos=1&with_markdown=1";
 
@@ -118,5 +117,5 @@ interface ProductType {
   service_price: string;
 }
 
-export type { ProductType };
 export { getBooksyInfo, getRelevantInfo };
+export type { ProductType };
