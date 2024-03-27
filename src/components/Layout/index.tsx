@@ -8,7 +8,7 @@ const Layout: React.FC<PropsWithChildren> = ({ children }) => {
       <Nav />
       <div
         vaul-drawer-wrapper="true"
-        className="animate-fade-in relative min-h-screen w-full scroll-smooth bg-white pt-[72px]"
+        className="animate-fade-in relative min-h-screen w-full scroll-smooth bg-white pt-16"
       >
         {children}
       </div>
