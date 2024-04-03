@@ -47,7 +47,7 @@ async function getGoogleReviews(): Promise<GooglePlaceDetails["result"]> {
   const url = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&fields=name,rating,review&key=${googleApiKey}`;
 
   try {
-    const response = await fetch(url);
+    const response = await fetch(url, { next: { revalidate: 3600 } });
     if (!response.ok) {
       throw new Error("Failed to fetch place details");
     }
