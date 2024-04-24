@@ -24,10 +24,14 @@ export default function PartnerWithUs() {
               variant: "outlined",
               size: "large",
             }),
-            "flex items-center gap-3 font-medium"
+            "group flex items-center gap-3 font-medium"
           )}
         >
-          Become a partner <ArrowRight strokeWidth={2.5} />
+          Become a partner{" "}
+          <ArrowRight
+            strokeWidth={2.5}
+            className="transition-transform duration-200 group-hover:-rotate-45"
+          />
         </Link>
       </div>
     </section>

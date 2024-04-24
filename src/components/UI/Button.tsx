@@ -14,7 +14,7 @@ const buttonVariants = cva(
         solid:
           "shadow text-white border px-2 hover:border-primary-content hover:bg-primary-content disabled:bg-slate-500 disabled:border-slate-500 bg-primary border-primary active:border-primary-content active:bg-primary-content",
         outlined:
-          "shadow bg-white border-2 px-2 border-primary text-primary hover:text-primary disabled:text-slate-500 disabled:border-slate-500 active:text-primary",
+          "shadow bg-white border-2 px-2 border-primary text-primary disabled:text-slate-500 disabled:border-slate-500 active:text-primary hover:bg-primary hover:text-white",
         text: "text-primary rounded-none border-0 h-auto w-auto hover:text-primary disabled:text-slate-500",
       },
       size: {
