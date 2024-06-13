@@ -2,6 +2,7 @@ import BooksyWidget from "~/components/BooksyWidget";
 import PageSection from "~/components/PageSection";
 import PageTitle from "~/components/PageTitle";
 import ProductCard from "~/components/ProductCard";
+import BookWidget from "~/components/book-widget";
 import type { ProductType } from "~/utils/booksyInfo";
 import { getRelevantInfo } from "~/utils/booksyInfo";
 
@@ -26,7 +27,8 @@ const Services = async () => {
         <p className="my-6 text-center text-2xl font-semibold">
           Massages starting at $35
         </p>
-        <section className="mx-auto grid w-full scroll-m-20 grid-cols-1 gap-8 px-4 font-semibold sm:grid-cols-2 lg:grid-cols-3">
+        <BookWidget />
+        {/* <section className="mx-auto grid w-full scroll-m-20 grid-cols-1 gap-8 px-4 font-semibold sm:grid-cols-2 lg:grid-cols-3">
           {services?.map((service) => {
             return (
               <ProductCard
@@ -38,7 +40,7 @@ const Services = async () => {
         </section>
         <div className="mt-16 flex justify-center">
           <BooksyWidget />
-        </div>
+        </div> */}
       </section>
     </>
   );

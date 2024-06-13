@@ -258,6 +258,12 @@ const Reviews = async () => {
             );
           })}
         </div>
+        <iframe
+          src="https://www.massagebook.com/therapists/the-mindful-body-massage/widget/reviews"
+          frameBorder="0"
+          width="100%"
+          height="1000"
+        ></iframe>
         <div className="flex justify-center">
           <BooksyWidget />
         </div>

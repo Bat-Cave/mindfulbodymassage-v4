@@ -60,6 +60,7 @@ interface ModalProps extends React.ComponentProps<typeof Dialog.Portal> {
   className?: string;
   overlayClasses?: string;
   CloseButton?: React.FC<{ onClick: () => void }>;
+  closeButtonClasses?: string;
 }
 
 function ModalChildren({
@@ -67,6 +68,7 @@ function ModalChildren({
   className,
   overlayClasses,
   CloseButton,
+  closeButtonClasses,
   ...props
 }: ModalProps) {
   const { open, setOpen } = useContext(ModalContext);
@@ -133,7 +135,10 @@ function ModalChildren({
                     />
                   ) : (
                     <Button
-                      className="fixed right-1 top-1"
+                      className={twMerge(
+                        "fixed right-1 top-1",
+                        closeButtonClasses
+                      )}
                       variant="text"
                       aria-label="Close"
                       onClick={() => void closeMenu()}
