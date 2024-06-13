@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { twMerge } from "tailwind-merge";
 import Logo from "../Logo";
-import Button from "../UI/Button";
+import Button, { buttonVariants } from "../UI/Button";
 import {
   Drawer,
   DrawerClose,
@@ -80,6 +80,18 @@ const Nav = () => {
                 </AnimatePresence>
               </div>
             ))}
+            <Link
+              href="/book"
+              className={twMerge(
+                buttonVariants({
+                  variant: "outlined",
+                  size: "small",
+                }),
+                "p-4"
+              )}
+            >
+              Book
+            </Link>
           </div>
           <div className="flex md:hidden">
             <Drawer open={drawerOpen} onOpenChange={setDrawerOpen}>
@@ -111,6 +123,18 @@ const Nav = () => {
                   </DrawerTitle>
                 </DrawerHeader>
                 <div className="flex w-full flex-col items-start gap-2 px-5">
+                  <Link
+                    href="/book"
+                    className={twMerge(
+                      buttonVariants({
+                        variant: "solid",
+                        size: "full",
+                      }),
+                      "p-4"
+                    )}
+                  >
+                    Book Appointment
+                  </Link>
                   {links.map((link) => (
                     <div key={link.link} className="relative px-2 sm:px-4">
                       <Button

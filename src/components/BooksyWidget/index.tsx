@@ -3,6 +3,7 @@
 import { useRef } from "react";
 import Button from "../UI/Button";
 import Modal from "../UI/Modal";
+import { X } from "iconoir-react";
 
 const BooksyWidget = () => {
   const iframeRef = useRef<HTMLIFrameElement>(null);
@@ -34,21 +35,17 @@ const BooksyWidget = () => {
           Book Appointment
         </Button>
       </Modal.Button>
-      <Modal.Content className="flex h-full w-full items-center justify-center border-0 p-0">
-        <div className="absolute right-[14px] top-[52px] z-50 flex h-10 w-12 items-center justify-center bg-transparent">
-          <Modal.Close>
-            <Button variant="text" className="h-full w-full"></Button>
-          </Modal.Close>
-        </div>
+      <Modal.Content
+        className="flex h-full w-full items-center justify-center border-0 p-0 md:w-full md:max-w-[calc(100vw-100px)]"
+        closeButtonClasses="right-5 top-4 bg-white p-1 rounded-full shadow-lg"
+      >
         <div className="h-full w-full overflow-hidden">
           <iframe
-            id="booksy-widget"
-            ref={iframeRef}
-            src="https://booksy.com/widget/index.html?id=1042065&businessId=&appointmentUid=&lang=en&country=us&mode=dialog&theme=default&uniqueId=8ab50f496a"
-            title="Booksey Widget"
-            className="booksy-override h-[calc(100%+80px)] w-full"
-            onLoad={() => injectStyles()}
-          />
+            src="https://www.massagebook.com/therapists/the-mindful-body-massage/widget/services"
+            frameBorder="0"
+            width="100%"
+            height="100%"
+          ></iframe>
         </div>
       </Modal.Content>
     </Modal>
