@@ -1,13 +1,8 @@
-import BooksyWidget from "~/components/BooksyWidget";
 import PageSection from "~/components/PageSection";
 import PageTitle from "~/components/PageTitle";
-import ProductCard from "~/components/ProductCard";
 import BookWidget from "~/components/book-widget";
-import type { ProductType } from "~/utils/booksyInfo";
-import { getRelevantInfo } from "~/utils/booksyInfo";
 
 const Services = async () => {
-  const { services } = await getRelevantInfo();
 
   return (
     <>

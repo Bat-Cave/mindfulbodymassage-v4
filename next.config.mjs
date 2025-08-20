@@ -12,6 +12,7 @@ const config = {
       { protocol: "https", hostname: "lh3.googleusercontent.com" },
       { protocol: "https", hostname: "www.fleurdecleanco.com" },
       { protocol: "https", hostname: "images.leadconnectorhq.com" },
+      { protocol: "https", hostname: "www.massagebook.com" },
     ],
   },
   async rewrites() {

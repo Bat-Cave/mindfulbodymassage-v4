@@ -3,27 +3,9 @@
 import { useRef } from "react";
 import Button from "../UI/Button";
 import Modal from "../UI/Modal";
-import { X } from "iconoir-react";
 
 const BooksyWidget = () => {
   const iframeRef = useRef<HTMLIFrameElement>(null);
-
-  const injectStyles = () => {
-    const iframeDocument = iframeRef?.current?.contentWindow;
-    const styleElement = document.createElement("style");
-    styleElement.innerHTML = `
-    .booksy-override {
-    }
-    
-    .card-header {
-      display: none !important;
-    }
-    
-    `;
-    // iframeDocument?.document?.head.appendChild(styleElement);
-
-    console.log(iframeDocument);
-  };
 
   return (
     <Modal>

@@ -16,7 +16,7 @@ const Ratings = () => {
         }
         return curr + 1;
       }),
-    { interval: 3000 }
+    { interval: 6000 }
   );
 
   return (
@@ -76,10 +76,10 @@ const Ratings = () => {
             5/5
           </p>
           <p className="font-medium text-primary sm:ml-2 ">Excellent</p>
-          <span className="mx-2 h-1 w-1 rounded-full bg-black"></span>
+          {/* <span className="mx-2 h-1 w-1 rounded-full bg-black"></span>
           <p className="text-sm font-medium text-gray-500">
             {reviews.length} reviews
-          </p>
+          </p> */}
         </div>
         {/* todo: add back when I have more reviews to show */}
         <Link
@@ -90,9 +90,7 @@ const Ratings = () => {
         </Link>
       </div>
       <div className="gap-8 sm:grid sm:grid-cols-2">
-        <MotionConfig
-          transition={{ type: "spring", stiffness: 300, damping: 30, mass: 1 }}
-        >
+        <MotionConfig transition={{ type: "spring", bounce: 0, duration: 0.5 }}>
           <div>
             <dl>
               <dt className="text-sm font-medium text-gray-500">
@@ -182,15 +180,16 @@ const Ratings = () => {
           </div>
         </MotionConfig>
         <div ref={ref} className="overflow-hidden">
-          <AnimatePresence mode="popLayout">
+          <AnimatePresence mode="wait">
             <motion.div
               key={currReview}
               className="flex h-full min-h-[33vh] w-full items-center justify-center p-4 text-center font-gabriela text-lg sm:min-h-0 sm:p-12"
-              initial={{ opacity: 0, x: 100 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: -100 }}
+              initial={{ opacity: 0, x: "100%" }}
+              animate={{ opacity: 1, x: "0%" }}
+              exit={{ opacity: 0, x: "-100%" }}
+              transition={{ type: "spring", bounce: 0, duration: 0.8 }}
             >
-              {reviews[currReview]}
+              &quot;{reviews[currReview]}&quot;
             </motion.div>
           </AnimatePresence>
         </div>

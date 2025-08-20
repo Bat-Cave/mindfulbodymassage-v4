@@ -58,7 +58,9 @@ const useAutoPlay = (
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [returnRef]);
 
+  // @ts-ignore
   return [returnRef, { isPlaying, isPaused }];
+
 };
 
 export default useAutoPlay;

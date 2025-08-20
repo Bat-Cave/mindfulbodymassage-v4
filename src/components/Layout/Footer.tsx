@@ -10,7 +10,7 @@ const Footer = () => {
           </span>
         </a>
         <p className="mt-4 text-sm text-white sm:ml-4 sm:mt-0 sm:border-l-2 sm:border-primary sm:py-2 sm:pl-4">
-          © 2024 Mindful Body Massage
+          © {new Date().getFullYear()} Mindful Body Massage
         </p>
         <span className="mt-4 inline-flex justify-center sm:ml-auto sm:mt-0 sm:justify-start">
           {/* <a className="text-neutral-content">

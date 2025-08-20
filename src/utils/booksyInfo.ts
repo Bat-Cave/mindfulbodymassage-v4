@@ -24,8 +24,8 @@ const getBooksyInfo = async () => {
   return res;
 };
 
-const getRelevantInfo = async () => {
-  const info = await getBooksyInfo();
+const getRelevantInfo = () => {
+  const info = booksyInfo.business;
 
   const {
     booking_policy,
