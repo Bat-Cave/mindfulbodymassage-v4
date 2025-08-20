@@ -2,6 +2,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import Layout from "~/components/Layout";
+import { PostHogProvider } from "~/providers/PostHogProvider";
 import "../styles/globals.css";
 
 export const metadata: Metadata = {
@@ -94,9 +95,11 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className="bg-white">
-        <Layout>{children}</Layout>
-        <SpeedInsights />
-        <Analytics />
+        <PostHogProvider>
+          <Layout>{children}</Layout>
+          <SpeedInsights />
+          <Analytics />
+        </PostHogProvider>
       </body>
     </html>
   );
